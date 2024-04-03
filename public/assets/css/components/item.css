@@ -1,0 +1,9 @@
+.item
+{
+  list-style: none;
+}
+
+.item__heading
+{
+  color: var(--color-white);
+}

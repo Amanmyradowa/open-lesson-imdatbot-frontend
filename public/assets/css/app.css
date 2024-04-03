@@ -1,0 +1,37 @@
+@import '../fonts/fonts.css';
+@import './variables.css';
+@import './components/header.css';
+@import './components/logotype.css';
+@import './components/image-element.css';
+@import './components/item.css';
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body
+{
+    height: 100%;
+    width: 100%;
+}
+body
+{
+    font: normal normal 14px 'TRY Clother';
+}
+
+.container{
+    width: 95%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.icon
+{
+  width: 14px;
+  height: 14px;
+  stroke: white;
+  fill: white;
+}

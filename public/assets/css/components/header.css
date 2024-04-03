@@ -1,0 +1,25 @@
+.header
+{
+	height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: var(--border-radius);
+}
+
+.header--theme
+{
+  background: url('../../images/background\ header.png');
+  background-position: center;
+}
+
+.header--theme-blue
+{
+	background-color: var(--color-blue);
+}
+
+.header__column
+{
+	display: flex;
+	align-items: center;
+}

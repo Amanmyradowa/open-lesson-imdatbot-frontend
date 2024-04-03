@@ -1,0 +1,15 @@
+.logotype__heading
+{
+  width: 380px;
+}
+
+.logotype__image
+{
+  width: 90px;
+  height: 90px;
+}
+
+.logotype__heading--theme-white
+{
+  color: var(--color-white);
+}
