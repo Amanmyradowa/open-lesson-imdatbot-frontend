@@ -3,14 +3,16 @@
 	--color-white: #fff;
 	
 	--color-blue: #00BBFF;
+
+  --color-light-blue: #CDEAFF;
+
+  --color-dark-blue: #325998;
 	
 	--color-black: #000000;
 
   --color-green: #3FAC4F;
 
-  --color-text: #2D3136;
-
-  --color-dark-blue: #325998;
+  --color-dark: #2D3136;
 
   --color-yellow: #F8CC29;
 

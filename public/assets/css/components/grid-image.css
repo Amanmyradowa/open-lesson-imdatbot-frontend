@@ -1,16 +1,16 @@
-.grid-image-description-form
+.grid-image-description
 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.grid-image-description
+.grid-image-description-left
 {
   width: 50%;
 }
 
-.grid-image-description__item
+.grid-image-description-left__item
 {
   display: flex;
   align-items: center;
@@ -30,10 +30,8 @@
 
 .grid-image-description__heading
 {
-  color: var(--color-text);
   font-size: 26px;
   line-height: 36px;
-  font-weight: 400;
 }
 
 .grid-image-description__image-middle-image
@@ -49,4 +47,21 @@
 .grid-image-description-form-columns
 {
   position: relative;
+}
+
+.grid-description__theme-light-blue
+{
+  background-color: var(--color-light-blue);
+}
+
+.grid-description__heading
+{
+  font-size: 56px;
+  line-height: 78px;
+}
+
+.grid-image-description__item-image
+{
+  width: 100px;
+  height: 85px;
 }
