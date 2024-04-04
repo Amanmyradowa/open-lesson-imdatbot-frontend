@@ -4,6 +4,7 @@
 @import './components/logotype.css';
 @import './components/image-element.css';
 @import './components/item.css';
+@import './components/icon-size.css';
 
 *
 {
@@ -26,12 +27,4 @@ body
     width: 95%;
     max-width: 1150px;
     margin: 0 auto;
-}
-
-.icon
-{
-  width: 14px;
-  height: 14px;
-  stroke: white;
-  fill: white;
 }

@@ -1,0 +1,18 @@
+.icon
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  stroke: white;
+  fill: white;
+}
+
+.icon-size
+{
+  width: 14px;
+  min-width: 14px;
+  max-width: 14px;
+  height: 14px;
+  min-height: 14px;
+  max-height: 14px;
+}
