@@ -1,0 +1,16 @@
+.absolute-image
+{
+  position: absolute;
+}
+
+.absolute-image-road
+{
+  top: -50px;
+  left: -50px;
+}
+
+.absolute-image-plane
+{
+  right: 40%;
+  bottom: 95px;
+}

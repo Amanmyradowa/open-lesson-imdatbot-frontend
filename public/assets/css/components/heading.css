@@ -1,0 +1,23 @@
+.heading
+{
+  width: 85%;
+  margin: 0 auto 100px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.heading--theme-blue
+{
+  color: var(--color-blue);
+}
+
+.seperator__heading
+{
+  width: 80%;
+  margin: 0 auto 30px;
+  color: var(--color-white);
+  font-size: 32px;
+  line-height: 45px;
+  text-align: center;
+}

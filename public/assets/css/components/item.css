@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   list-style: none;
+  line-height: 24px;
 }
 
 .item__heading

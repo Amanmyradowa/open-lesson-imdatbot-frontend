@@ -1,3 +1,7 @@
+/* atomic */
+@import './atomic/margin.css';
+
+/* components */
 @import '../fonts/fonts.css';
 @import './variables.css';
 @import './components/header.css';
@@ -5,6 +9,13 @@
 @import './components/image-element.css';
 @import './components/item.css';
 @import './components/icon-size.css';
+@import './components/grid-image.css';
+@import './components/heading.css';
+@import './components/form.css';
+@import './components/button.css';
+@import './components/main.css';
+@import './components/absolute-image.css';
+@import './components/seperator.css';
 
 *
 {
@@ -21,10 +32,11 @@ body
 body
 {
     font: normal normal 14px 'TRY Clother';
+    padding: 15px 0;
 }
 
 .container{
     width: 95%;
-    max-width: 1150px;
+    max-width: 1250px;
     margin: 0 auto;
 }

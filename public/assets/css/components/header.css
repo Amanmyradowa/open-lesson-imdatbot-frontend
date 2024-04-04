@@ -28,4 +28,7 @@
 .header__right-column
 {
   width: 250px;
+  display: flex;
+  justify-content: end;
 }
+

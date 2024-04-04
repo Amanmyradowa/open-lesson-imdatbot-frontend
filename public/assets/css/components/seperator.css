@@ -1,0 +1,21 @@
+.seperator__upper
+{
+  display: flex;
+  align-items: center;
+}
+
+.seperator__upper-image
+{
+  width: 46px;
+  height: 46px;
+  background-color: var(--color-yellow);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.seperator__upper-text
+{
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+}
