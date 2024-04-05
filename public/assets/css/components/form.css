@@ -1,12 +1,12 @@
 .form
 {
-  width: 35%;
+  position: relative;
 }
 
 .form__top
 {
   background-color: var(--color-green);
-  background-image: url('../../images/background\ form.png');
+  background-image: url('../../images/form-background-icons.png');
   padding: 35px 30px 30px;
   border-radius: var(--border-radius);
 }
@@ -14,6 +14,10 @@
 .form__element
 {
   display: flex;
+}
+
+.form__element-column
+{
   flex-direction: column;
 }
 
@@ -29,9 +33,21 @@
 
 }
 
-.form__input-size
+.form__input-button--size
 {
   width: 100%;
   height: 40px;
   padding: 0 14px;
+}
+
+.form__background-image
+{
+  position: relative;
+}
+
+.form__background-image__middle-image
+{
+  position: absolute;
+  top: 0;
+  left: 0;
 }

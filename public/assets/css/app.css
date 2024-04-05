@@ -1,5 +1,6 @@
 /* atomic */
 @import './atomic/margin.css';
+@import './atomic/padding.css';
 
 /* components */
 @import '../fonts/fonts.css';
@@ -16,6 +17,7 @@
 @import './components/main.css';
 @import './components/absolute-image.css';
 @import './components/seperator.css';
+@import './components/column.css';
 
 *
 {

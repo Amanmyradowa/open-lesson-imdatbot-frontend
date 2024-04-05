@@ -12,6 +12,11 @@
   color: var(--color-blue);
 }
 
+.heading--theme-white
+{
+  color: var(--color-white);
+}
+
 .heading--theme-dark-blue
 {
   color: var(--color-dark-blue);
@@ -34,4 +39,9 @@
 .heading--theme-black
 {
   color: var(--color-black);
+}
+
+.heading__text-center
+{
+  text-align: center;
 }
