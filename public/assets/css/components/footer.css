@@ -1,0 +1,16 @@
+.footer__bottom
+{
+  display: flex;
+  justify-content: space-between;
+  border-radius: var(--border-radius);
+}
+
+.footer__bottom-map
+{
+  width: 75%;
+}
+
+.footer__bottom-links
+{
+  width: 20%;
+}

@@ -1,0 +1,36 @@
+.hexagon {
+  position: relative;
+  /* margin: 1em auto; */
+  /* width: 10em;
+  height: 17.32em; */
+  /* opacity: .25; */
+  background: var(--color-blue);
+}
+
+.hexagon:before, .hexagon:after {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background: inherit;
+  content: '';
+}
+
+.hexagon:before {
+  transform: rotate(60deg);
+}
+
+.hexagon:after {
+  transform: rotate(-60deg);
+}
+
+.hexagon__size-tiny
+{
+  width: 24px;
+  height: 40px;
+}
+
+.hexagon__size-middle
+{
+  width: 45px;
+  height: 80px;
+}

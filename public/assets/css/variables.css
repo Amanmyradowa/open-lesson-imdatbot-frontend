@@ -7,6 +7,8 @@
   --color-light-blue: #CDEAFF;
 
   --color-dark-blue: #325998;
+
+  --color-border-blue: #23A6DE;
 	
 	--color-black: #000000;
 
@@ -21,4 +23,6 @@
   --header-height: 139px;
 
   --border-radius: 40px;
+
+  --border-radius-20: 20px;
 }

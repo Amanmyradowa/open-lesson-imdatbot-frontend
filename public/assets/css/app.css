@@ -18,6 +18,9 @@
 @import './components/absolute-image.css';
 @import './components/seperator.css';
 @import './components/column.css';
+@import './components/hexagon.css';
+@import './components/footer.css';
+@import './components/social-links.css';
 
 *
 {
