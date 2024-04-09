@@ -1,6 +1,10 @@
 .coverflow
 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: var(--color-yellow);
+  border-radius: var(--border-radius);
 }
 
 .coverflow-size
@@ -8,4 +12,31 @@
   width: 638px;
   height: 173px;
   margin: 0 auto;
+}
+
+.coverflow__image
+{
+  width: 101px;
+  height: 81px;
+}
+
+.coverflow__image--heading-description
+{
+  position: relative;
+  text-align: center;
+}
+
+.coverflow__image--description
+{
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.coverflow__image--heading-description-description
+{
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 42px;
 }
