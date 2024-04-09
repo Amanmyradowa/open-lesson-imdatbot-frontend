@@ -1,3 +1,9 @@
+.social-links__items
+{
+  display: flex;
+  border-radius: 15px;
+}
+
 .social-links__item
 {
   width: 30px;
@@ -14,7 +20,7 @@
   height: 17px;
 }
 
-.link
+.social-links__item-image-phone-link
 {
   width: 28px;
   height: 28px;

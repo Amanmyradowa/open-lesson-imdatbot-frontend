@@ -21,6 +21,7 @@
 @import './components/hexagon.css';
 @import './components/footer.css';
 @import './components/social-links.css';
+@import './components/coverflow.css';
 
 *
 {

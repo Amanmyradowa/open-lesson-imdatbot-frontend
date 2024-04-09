@@ -1,0 +1,11 @@
+.coverflow
+{
+  background-color: var(--color-yellow);
+}
+
+.coverflow-size
+{
+  width: 638px;
+  height: 173px;
+  margin: 0 auto;
+}
