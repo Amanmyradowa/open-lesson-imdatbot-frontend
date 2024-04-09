@@ -40,3 +40,8 @@
   font-weight: 900;
   line-height: 42px;
 }
+
+.coverflow-heading
+{
+  text-transform: uppercase;
+}
