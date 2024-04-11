@@ -45,3 +45,46 @@
 {
   text-transform: uppercase;
 }
+
+.coverflow-container
+{
+  position: relative;
+  height: 790px;
+}
+
+.coverflow__top-image
+{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.coverflow__bottom-image
+{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.thanks-letter__text
+{
+  position: absolute;
+  width: 100%;
+  top: 80px;
+  background-color: var(--color-green);
+  color: var(--color-white);
+  font-size: 26px;
+  line-height: 36.4px;
+}
+
+.thanks-letter__heading
+{
+  font-weight: 700;
+}
+
+.thanks-letter__text ul
+{
+  margin-left: 50px;
+}

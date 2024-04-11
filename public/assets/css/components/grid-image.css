@@ -108,7 +108,7 @@
 
 .grid-image-description__item-sertificate--theme
 {
-  /* background-image: url(../../images/background-sertificate.png); */
+  /* background-image: (../../images/background-sertificate.png); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

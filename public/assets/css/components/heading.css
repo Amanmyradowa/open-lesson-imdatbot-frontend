@@ -44,11 +44,22 @@
   text-align: center;
 }
 
-.heading-zayawka
+.heading__thanks-letter
 {
   font-size: 40px;
   font-weight: 700;
   line-height: 56px;
   text-align: center;
+}
+
+.heading-size
+{
+  width: 40%;
+  margin: 0 auto;
+  font-weight: 700;
+}
+
+.heading--theme-green
+{
   color: var(--color-green);
 }

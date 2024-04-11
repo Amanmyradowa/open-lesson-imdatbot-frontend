@@ -15,3 +15,13 @@
   right: 37%;
   bottom: 88px;
 }
+
+.absolute-image-right
+{
+  right: 0;
+}
+
+.absolute-image-left
+{
+  left: 0;
+}

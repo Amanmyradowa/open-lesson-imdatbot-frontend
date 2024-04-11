@@ -1,9 +1,5 @@
 .hexagon {
   position: relative;
-  /* margin: 1em auto; */
-  /* width: 10em;
-  height: 17.32em; */
-  /* opacity: .25; */
   background: var(--color-blue);
 }
 
