@@ -97,3 +97,15 @@
 {
   margin: 30px 0 10px;
 }
+
+@media only screen and (max-width: 1060px) {
+  .margin-20-0-100
+  {
+    margin: 20px 0 70px;
+  }
+
+  .margin-40-0-20
+  {
+    margin: 0 0 20px;
+  }
+}

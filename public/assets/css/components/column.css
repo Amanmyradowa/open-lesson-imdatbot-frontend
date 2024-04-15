@@ -7,3 +7,15 @@
 {
   width: 85%;
 }
+
+@media only screen and (max-width: 1250px) {
+  .columns__column--width-35pr
+  {
+    width: 40%;
+  }
+
+  .column-columns
+  {
+    width: 95%;
+  }
+}

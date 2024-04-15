@@ -27,3 +27,22 @@
 {
   padding: 0 50px;
 }
+
+@media only screen and (max-width: 1060px) {
+  .padding-70-30
+  {
+    padding: 10px 30px 30px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}

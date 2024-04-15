@@ -25,3 +25,16 @@
 {
   left: 0;
 }
+
+
+@media only screen and (max-width: 1250px) {
+  .absolute-image-road
+  {
+    display: none;
+  }
+
+  .absolute-image-plane
+  {
+    display: none;
+  }
+}

@@ -19,3 +19,10 @@
   line-height: 36px;
   font-weight: 700;
 }
+
+@media only screen and (max-width: 1060px) {
+  .seperator__upper-text
+  {
+    font-size: 20px;
+  }
+}

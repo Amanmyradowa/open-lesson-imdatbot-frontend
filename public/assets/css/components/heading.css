@@ -63,3 +63,11 @@
 {
   color: var(--color-green);
 }
+
+
+@media only screen and (max-width: 1060px) {
+  .heading
+  {
+    font-size: 25px;
+  }
+}

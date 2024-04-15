@@ -125,3 +125,16 @@
   font-weight: 700;
   line-height: 22.4px;
 }
+
+@media only screen and (max-width: 1250px) {
+  .grid-image-description-left
+  {
+    width: 58%;
+  }
+
+  .grid-description__heading
+  {
+    font-size: 45px;
+  }
+
+}
