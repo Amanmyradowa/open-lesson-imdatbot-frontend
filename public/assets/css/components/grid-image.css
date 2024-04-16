@@ -150,4 +150,13 @@
   {
     font-size: 35px;
   }
+  .grid-image-description-left
+  {
+    width: 100%;
+  }
+  
+  .columns__column--width-35pr
+  {
+    width: 100%;
+  }
 }
