@@ -88,3 +88,37 @@
 {
   margin-left: 50px;
 }
+
+
+@media only screen and (max-width: 991px) {
+  .coverflow__image--heading-description-description
+  {
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 20px;
+  }
+  
+  .coverflow__image--description
+  {
+    top: 18px;
+  }
+
+  .coverflow-size
+  {
+    width: 555px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .coverflow-size
+  {
+    width: 500px;
+    height: 150px;
+  }
+
+  .coverflow__image
+  {
+    width: 85px;
+    height: 75px;
+  }
+}

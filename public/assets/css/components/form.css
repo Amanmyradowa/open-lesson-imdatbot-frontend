@@ -51,3 +51,10 @@
   top: 0;
   left: 0;
 }
+
+@media only screen and (max-width: 991px) {
+  .form__top
+  {
+    padding: 25px 25px 28px;
+  }
+}

@@ -4,6 +4,14 @@
   align-items: center;
 }
 
+.seperator__heading
+{
+  color: var(--color-white);
+  font-size: 32px;
+  line-height: 45px;
+  text-align: center;
+}
+
 .seperator__upper-image
 {
   width: 46px;
@@ -24,5 +32,13 @@
   .seperator__upper-text
   {
     font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .seperator__heading
+  {
+    font-size: 28px;
+    line-height: 40px;
   }
 }

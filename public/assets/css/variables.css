@@ -26,3 +26,12 @@
 
   --border-radius-20: 20px;
 }
+
+
+
+@media only screen and (max-width: 900px) {
+  :root
+  {
+    --header-height: 115px;
+  }
+}

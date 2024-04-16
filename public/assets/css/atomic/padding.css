@@ -35,8 +35,18 @@
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
+  .padding-10-40
+  {
+    padding: 10px 25px;
+  }
+}
 
+@media only screen and (max-width: 900px) {
+  .padding-80-0
+  {
+    padding: 50px 0;
+  }
 }
 
 @media only screen and (max-width: 768px) {

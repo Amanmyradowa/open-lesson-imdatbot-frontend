@@ -20,14 +20,6 @@
   color: var(--color-dark-blue);
 }
 
-.seperator__heading
-{
-  color: var(--color-white);
-  font-size: 32px;
-  line-height: 45px;
-  text-align: center;
-}
-
 .heading--theme-dark
 {
   color: var(--color-dark);
@@ -64,6 +56,13 @@
   color: var(--color-green);
 }
 
+
+@media only screen and (max-width: 1060px) {
+  .heading
+  {
+    font-size: 25px;
+  }
+}
 
 @media only screen and (max-width: 1060px) {
   .heading
