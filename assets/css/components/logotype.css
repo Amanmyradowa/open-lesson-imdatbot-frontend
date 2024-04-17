@@ -14,3 +14,11 @@
 {
   color: var(--color-white);
 }
+
+
+@media only screen and (max-width: 740px) {
+  .logotype__heading
+  {
+    font-size: 15px;
+  }
+}

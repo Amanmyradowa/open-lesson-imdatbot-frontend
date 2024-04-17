@@ -16,13 +16,22 @@
 
   .column-columns
   {
-    width: 95%;
+    /* width: 95%; */
   }
 }
 
 @media only screen and (max-width: 991px) {
   .columns__column--width-35pr
   {
-    width: 100%;
+    width: 47.5%;
+  }
+}
+
+
+@media only screen and (max-width: 760px) {
+  .columns__column--width-35pr
+  {
+    width: 80%;
+    margin: 0 auto;
   }
 }

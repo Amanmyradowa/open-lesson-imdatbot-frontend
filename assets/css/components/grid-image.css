@@ -7,7 +7,8 @@
 
 .grid-image-description-left
 {
-  width: 50%;
+  width: 47.5%;
+  margin-left: 2.5%;
 }
 
 .grid-image-description-left__item
@@ -152,11 +153,35 @@
   }
   .grid-image-description-left
   {
-    width: 100%;
+    width: 50%;
   }
-  
-  .columns__column--width-35pr
+
+  .grid-image-description-form-columns 
+  {
+    margin-bottom: 110px !important;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .grid-image-description-left
   {
     width: 100%;
+  }
+
+  .grid-description__heading
+  {
+    font-size: 29px;
+    line-height: 42px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .grid-image-description
+  {
+    flex-wrap: nowrap;
+  }
+  .grid-image-description__item-size-30
+  {
+    margin-right: 50px;
   }
 }
