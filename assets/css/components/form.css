@@ -58,3 +58,17 @@
     padding: 25px 25px 28px;
   }
 }
+
+@media only screen and (max-width: 640px) {
+
+  .form__element
+  {
+    flex-direction: column;
+  }
+
+  .form__element input
+  {
+    margin-bottom: 20px;
+  }
+  
+}

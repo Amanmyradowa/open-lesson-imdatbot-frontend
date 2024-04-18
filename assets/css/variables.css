@@ -35,3 +35,10 @@
     --header-height: 115px;
   }
 }
+
+@media only screen and (max-width: 640px) {
+  :root
+  {
+    --header-height: 139px;
+  }
+}

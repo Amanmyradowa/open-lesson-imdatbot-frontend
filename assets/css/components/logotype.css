@@ -15,10 +15,71 @@
   color: var(--color-white);
 }
 
+.logotype__image-mobile
+{
+  width: 90px;
+  height: 90px;
+  display: none;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .logotype__heading
+  {
+    width: 330px;
+  }
+}
+
+@media only screen and (max-width: 895px) {
+  .logotype__heading
+  {
+    width: 290px;
+  }
+}
+
+
+@media only screen and (max-width: 770px) {
+  .logotype__heading
+  {
+    width: 250px;
+  }
+}
 
 @media only screen and (max-width: 740px) {
   .logotype__heading
   {
     font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 685px) {
+  .logotype__heading
+  {
+    width: 220px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .logotype__image-mobile
+  {
+    display: flex;
+  }
+
+  .logotype__image
+  {
+    display: none;
+  }
+
+  .logotype__heading
+  {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 544px) {
+  .logotype__image-mobile
+  {
+    width: 85px;
+    height: 85px;
   }
 }

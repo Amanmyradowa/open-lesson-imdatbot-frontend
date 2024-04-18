@@ -1,0 +1,23 @@
+.swiper {
+  width: 95%;
+}
+
+.swiper-wrapper.disabled
+{
+  transform: translate3d(0px, 0, 0) !important;
+}
+
+.swiper-pagination.disabled
+{
+  display: none;
+}
+
+.swiper-wrapper1.disabled
+{
+  transform: translate3d(0px, 0, 0) !important;
+}
+
+.swiper-pagination1.disabled
+{
+  display: none;
+}

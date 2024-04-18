@@ -122,3 +122,21 @@
     height: 75px;
   }
 }
+
+@media only screen and (max-width: 640px) {
+  .coverflow
+  {
+    position: relative;
+    left: 0;
+    transform: translate(0, 0);
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .coverflow-size
+  {
+    width: 100%;
+    height: auto;
+  }
+}

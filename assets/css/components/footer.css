@@ -20,7 +20,6 @@
   width: 30%;
 }
 
-
 @media only screen and (max-width: 1060px) {
   .footer__bottom-map
   {
@@ -36,11 +35,23 @@
   {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 50px;
   }
 
   .footer__bottom-links ul
   {
     width: 50%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .footer__bottom-links ul
+  {
+    width: 100%;
+  }
+  .footer__bottom-links ul:first-child
+  {
+    margin-bottom: 50px;
   }
 }

@@ -22,6 +22,7 @@
 @import './components/footer.css';
 @import './components/social-links.css';
 @import './components/coverflow.css';
+@import './components/swiper.css';
 
 *
 {
@@ -52,10 +53,4 @@ body
     {
         width: 95%;
     }
-}
-
-.swiper {
-    width: 80%;
-    height: 200px;
-    display: none;
 }
