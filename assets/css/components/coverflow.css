@@ -70,10 +70,6 @@
 
 .thanks-letter__text
 {
-  position: absolute;
-  width: 100%;
-  top: 80px;
-  background-color: var(--color-green);
   color: var(--color-white);
   font-size: 26px;
   line-height: 36.4px;

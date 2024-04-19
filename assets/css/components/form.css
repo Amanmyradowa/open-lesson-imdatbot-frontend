@@ -28,11 +28,6 @@
   line-height: 23px;
 }
 
-.form__input--theme-white
-{
-
-}
-
 .form__input-button--size
 {
   width: 100%;
@@ -40,16 +35,22 @@
   padding: 0 14px;
 }
 
-.form__background-image
-{
-  position: relative;
-}
-
-.form__background-image__middle-image
+.form__background-image__image-top
 {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -2;
+  height: 215px;
+}
+
+.form__background-image__image-bottom
+{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -2;
+  height: 200px;
 }
 
 @media only screen and (max-width: 991px) {

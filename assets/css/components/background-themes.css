@@ -1,0 +1,31 @@
+.background-theme--green
+{
+  background-color: var(--color-green);
+}
+
+.background-theme--freeform-shape-form
+{
+  position: relative;
+  height: 344px;
+}
+
+.background-theme--geometric
+{
+  background: url('../../images/form-background-icons.png');
+}
+
+.background-theme--freeform-shape
+{
+  position: relative;
+  height: 840px;
+}
+
+.freedom-shape__middle
+{
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  padding: 0 50px;
+  z-index: -1;
+}
