@@ -1,29 +1,31 @@
 const swiper = new Swiper('.swiper', {
-  slidesPerView: 2,
-  // loop: true,
+    slidesPerView: 2,
+    spaceBetween: 30,
+    // loop: true,
 
-  // autoplay: {
-  //   delay: 2000,
-  //   disableOnInteraction: false, 
-  // },
+    // autoplay: {
+    //   delay: 2000,
+    //   disableOnInteraction: false, 
+    // },
 
-  pagination: {
-    el: '.swiper-pagination',
-  },
+    pagination: {
+      el: '.swiper-pagination',
+    },
 
-  breakpoints: {
-    840: {
-    slidesPerView: 1,
-    slideToClickedSlide: true,
-  }
-  },
+    breakpoints: {
+      840: {
+      slidesPerView: 2,
+      slideToClickedSlide: true,
+    }
+    },
 
-  speed: 1500,
+    speed: 1500,
 
 });
 
 const swiper1 = new Swiper('.swiper1', {
   slidesPerView: 2,
+  spaceBetween: 30,
   // loop: true,
 
   // autoplay: {
@@ -37,7 +39,7 @@ const swiper1 = new Swiper('.swiper1', {
 
   breakpoints: {
     840: {
-    slidesPerView: 1,
+    slidesPerView: 2,
     slideToClickedSlide: true,
   }
   },

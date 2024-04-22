@@ -37,6 +37,18 @@ swiper-container {
 	z-index: 1;
 	display: block;
 }
+.swiper1,
+swiper-container {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	overflow: hidden;
+	list-style: none;
+	padding: 0;
+	/* Fix of Webkit flickering */
+	z-index: 1;
+	display: block;
+}
 .swiper-vertical > .swiper-wrapper {
 	flex-direction: column;
 }
@@ -321,6 +333,13 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
 	*/
 }
 .swiper-pagination {
+	position: absolute;
+	text-align: center;
+	transition: 300ms opacity;
+	transform: translate3d(0, 0, 0);
+	z-index: 10;
+}
+.swiper-pagination1 {
 	position: absolute;
 	text-align: center;
 	transition: 300ms opacity;
