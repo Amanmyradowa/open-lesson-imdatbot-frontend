@@ -8,7 +8,7 @@
 .grid-image-description-left
 {
   width: 47.5%;
-  margin-left: 2.5%;
+  margin-left: 1%;
 }
 
 .grid-image-description-left__item
@@ -188,6 +188,13 @@
     width: 370px !important;
     height: 200px !important;
     margin: 0 60px 0 0;
+  }
+}
+
+@media only screen and (max-width: 645px) {
+  .grid-description__heading
+  {
+    font-size: 26px;
   }
 }
 

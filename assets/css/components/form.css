@@ -53,6 +53,7 @@
   height: 200px;
 }
 
+
 @media only screen and (max-width: 991px) {
   .form__top
   {
@@ -60,7 +61,7 @@
   }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 645px) {
 
   .form__element
   {

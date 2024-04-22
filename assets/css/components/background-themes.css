@@ -17,7 +17,7 @@
 .background-theme--freeform-shape
 {
   position: relative;
-  height: 840px;
+  height: 838px;
 }
 
 .freedom-shape__middle
@@ -28,4 +28,84 @@
   right: 0;
   padding: 0 50px;
   z-index: -1;
+}
+
+.mobile
+{
+  display: none;
+}
+
+.thanks-letter-mobile
+{
+  display: none;
+}
+
+@media only screen and (max-width: 1105px) {
+  .background-theme--freeform-shape
+  {
+    height: 915px;
+  }
+}
+
+@media only screen and (max-width: 915px) {
+  .thanks-letter__text
+  {
+    font-size: 22px;
+  }
+  
+  .background-theme--freeform-shape
+  {
+    height: 950px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .thanks-letter-desktop
+  {
+    display: none;
+  }
+
+  .thanks-letter-mobile
+  {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .background-theme--freeform-shape-form
+  {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 645px) {
+  .background-theme--freeform-shape-form
+  {
+    height: 440px;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .freedom-shape__middle
+  {
+    padding: 0 28px;
+  }
+
+}
+
+@media only screen and (max-width: 545px) {
+  .mobile
+  {
+    display: block;
+  }
+  .mobile-bottom
+  {
+    height: 122px;
+  }
+
+  .desktop
+  {
+    display: none;
+  }
+
 }

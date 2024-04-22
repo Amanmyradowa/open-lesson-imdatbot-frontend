@@ -59,7 +59,6 @@ if(width > 840)
   swiperPagination.classList.add('disabled');
 }
 
-// let swiperWrapper1 = document.querySelector('.swiper-wrapper1');
 let swiperPagination1 = document.querySelector('.swiper-pagination1');
 
 if(width > 840)

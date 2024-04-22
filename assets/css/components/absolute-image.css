@@ -27,6 +27,17 @@
 }
 
 
+@media only screen and (max-width: 1320px) {
+  .absolute-image-left
+  {
+    left: -160px;
+  }
+  .absolute-image-right
+  {
+    right: -160px;
+  }
+}
+
 @media only screen and (max-width: 1250px) {
   .absolute-image-road
   {
@@ -36,5 +47,17 @@
   .absolute-image-plane
   {
     display: none;
+  }
+}
+
+
+@media only screen and (max-width: 991px) {
+  .absolute-image-left
+  {
+    left: -240px;
+  }
+  .absolute-image-right
+  {
+    right: -240px;
   }
 }

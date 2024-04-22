@@ -16,12 +16,15 @@
   display: none;
 }
 
-.swiper-wrapper1.disabled
-{
-  transform: translate3d(0px, 0, 0) !important;
-}
-
 .swiper-pagination1.disabled
 {
   display: none;
+}
+
+
+@media only screen and (max-width: 840px) {
+  .swiper
+  {
+    height: 250px;
+  }
 }
