@@ -36,9 +36,10 @@ const swiper = new Swiper('.swiper', {
 });
 
 const swiper1 = new Swiper('.swiper1', {
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 0,
   loop: true,
+  rewind: true,
 
   pagination: {
     el: '.swiper-pagination1',
@@ -73,30 +74,24 @@ const swiper1 = new Swiper('.swiper1', {
 });
 
 
-// const swiper2 = new Swiper('.swiper1', {
-//   slidesPerView: 2,
-//   spaceBetween: 30,
-//   // loop: true,
+const swiper2 = new Swiper('.swiper2', {
+  slidesPerView: 2,
+  spaceBetween: 30,
 
-//   // autoplay: {
-//   //   delay: 2000,
-//   //   disableOnInteraction: false, 
-//   // },
+  pagination: {
+    el: '.swiper-pagination2',
+  },
 
-//   pagination: {
-//     el: '.swiper-pagination2',
-//   },
+  breakpoints: {
+    840: {
+    slidesPerView: 2,
+    slideToClickedSlide: true,
+  }
+  },
 
-//   breakpoints: {
-//     840: {
-//     slidesPerView: 2,
-//     slideToClickedSlide: true,
-//   }
-//   },
+  speed: 1500,
 
-//   speed: 1500,
-
-// });
+});
 
 
 let width = screen.width;
@@ -106,6 +101,7 @@ let swiperWrapper = document.querySelectorAll('.swiper-wrapper');
 let swiperPagination = document.querySelector('.swiper-pagination');
 let swiperSlide = document.querySelectorAll('.swiper-slide');
 let swiperPagination1 = document.querySelector('.swiper-pagination1');
+let swiperPagination2 = document.querySelector('.swiper-pagination2');
 
 
 if(width > 960)
@@ -114,6 +110,7 @@ if(width > 960)
   swiperPagination1.classList.add('disabled');
   swiperWrapper[0].classList.add('disabled');
   swiperWrapper[1].classList.add('disabled');
+  swiperWrapper[2].classList.add('disabled');
   for(let i=0; i<swiperSlide.length; i++)
   {
     swiperSlide[i].classList.add('grid-image-description__item-size-30');

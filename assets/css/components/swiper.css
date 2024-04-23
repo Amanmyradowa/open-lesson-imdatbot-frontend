@@ -4,6 +4,7 @@
 
 .swiper1 {
   width: 95%;
+  height: 360px;
 }
 
 .swiper .swiper-wrapper.disabled
@@ -16,12 +17,22 @@
   transform: translate3d(0px, 0, 0) !important;
 }
 
+.swiper2 .swiper-wrapper.disabled
+{
+  transform: translate3d(0px, 0, 0) !important;
+}
+
 .swiper-pagination.disabled
 {
   display: none;
 }
 
 .swiper-pagination1.disabled
+{
+  display: none;
+}
+
+.swiper-pagination2.disabled
 {
   display: none;
 }
