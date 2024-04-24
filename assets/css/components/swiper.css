@@ -7,6 +7,11 @@
   height: 360px;
 }
 
+.swiper2 .swiper-wrapper
+{
+  padding-top: 82px !important;
+}
+
 .swiper .swiper-wrapper.disabled
 {
   transform: translate3d(0px, 0, 0) !important;
@@ -42,5 +47,10 @@
   .swiper
   {
     height: 315px;
+  }
+
+  .swiper2 {
+    width: 95%;
+    height: 265px;
   }
 }
