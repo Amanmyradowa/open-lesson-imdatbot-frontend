@@ -4,12 +4,13 @@
 
 .swiper1 {
   width: 95%;
-  height: 360px;
+  height: 385px;
 }
 
-.swiper2 .swiper-wrapper
+.swiper2
 {
   padding-top: 82px !important;
+  padding-bottom: 50px !important;
 }
 
 .swiper .swiper-wrapper.disabled
@@ -51,6 +52,6 @@
 
   .swiper2 {
     width: 95%;
-    height: 265px;
+    height: 350px;
   }
 }

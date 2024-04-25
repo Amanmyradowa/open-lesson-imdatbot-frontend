@@ -54,6 +54,18 @@
 }
 
 
+@media only screen and (max-width: 1127px) {
+  .form__background-image__image-top
+  {
+    height: 280px;
+  }
+
+  .form__background-image__image-bottom
+  {
+    height: 221px;
+  }
+}
+
 @media only screen and (max-width: 991px) {
   .form__top
   {

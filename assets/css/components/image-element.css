@@ -20,7 +20,7 @@
 {
   position: absolute;
   left: 50%;
-  bottom: 182px;
+  top: -82px;
   transform: translateX(-50%);
 }
 
@@ -28,4 +28,18 @@
 {
   width: 192px;
   height: 164px;
+}
+
+
+@media only screen and (max-width: 1156px) {
+  .image__position-size
+  {
+    width: 170px;
+    height: 142px;
+  }
+
+  .image__position
+  {
+    top: -71px;
+  }
 }
