@@ -57,7 +57,7 @@
 @media only screen and (max-width: 1127px) {
   .form__background-image__image-top
   {
-    height: 280px;
+    height: 185px;
   }
 
   .form__background-image__image-bottom
@@ -72,6 +72,41 @@
     padding: 25px 25px 28px;
   }
 }
+
+@media only screen and (max-width: 915px) {
+  .form__background-image__image-bottom
+  {
+    height: 120px;
+  }
+}
+
+@media only screen and (max-width: 895px) {
+  .form__background-image__image-bottom
+  {
+    height: 130px;
+  }
+
+  .form__background-image__image-top
+  {
+    height: 155px;
+  }
+}
+
+@media only screen and (max-width: 727px) {
+
+  .background-theme--freeform-shape {
+    height: 1034px;
+  }
+
+  /* .form__background-image__image-bottom {
+    height: 100px;
+  } */
+
+  .form__background-image__image-top {
+    height: 132px;
+  }
+}
+
 
 @media only screen and (max-width: 645px) {
 

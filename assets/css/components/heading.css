@@ -57,10 +57,20 @@
 }
 
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 1055px) {
   .heading
   {
-    font-size: 25px;
+    font-size: 24px;
+  }
+
+  .heading__thanks-letter
+  {
+    font-size: 37px;
+  }
+
+  .heading-size
+  {
+    width: 50%;
   }
 }
 

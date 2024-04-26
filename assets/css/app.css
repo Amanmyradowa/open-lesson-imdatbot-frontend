@@ -41,6 +41,7 @@ body
 {
     font: normal normal 14px 'TRY Clother';
     padding: 15px 0;
+    overflow-x: hidden;
 }
 
 .container{
