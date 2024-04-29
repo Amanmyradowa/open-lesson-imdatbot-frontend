@@ -3,9 +3,14 @@
   background-color: var(--color-green);
 }
 
-.background-theme-geometric
+.background-theme-geometric-desktop
 {
   position: absolute;
+}
+
+.background-theme-geometric-mobile
+{
+  display: none;
 }
 
 .background-theme--freeform-shape-form
@@ -72,6 +77,19 @@
   {
     height: 830px;
     line-height: 29.4px;
+  }
+}
+
+@media only screen and (max-width: 645px) {
+  .background-theme-geometric-desktop
+  {
+    display: none;
+  }
+  
+  .background-theme-geometric-mobile
+  {
+    display: inline-block;
+    position: absolute;
   }
 }
 

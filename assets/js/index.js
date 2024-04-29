@@ -144,7 +144,6 @@ class ResponsiveGrid {
   }
 
   resizeHandler() {
-    console.log(this.wrapper)
     const width = window.innerWidth;
     if (width > this.breakpoint) {
       this.disablePagination();
@@ -161,7 +160,6 @@ class ResponsiveGrid {
   }
 
   enablePagination() {
-    console.log("ishleyan",this.pagination)
     this.pagination.classList.remove('disabled');
     this.wrapper.classList.remove('disabled');
   }

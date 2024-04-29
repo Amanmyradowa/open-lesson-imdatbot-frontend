@@ -56,12 +56,15 @@
   height: 200px;
 }
 
-.form__background-image__image
+.form__background-image__image-desktop
 {
   display: flex;
 }
 
-
+.form__background-image__image-mobile
+{
+  display: none;
+}
 @media only screen and (max-width: 1160px) {
   .form
   {
@@ -155,6 +158,16 @@
   .form__element input
   {
     margin-bottom: 20px;
+  }
+  
+  .form__background-image__image-desktop
+  {
+    display: none;
+  }
+
+  .form__background-image__image-mobile
+  {
+    display: flex;
   }
   
 }
