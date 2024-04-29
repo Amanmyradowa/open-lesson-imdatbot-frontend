@@ -3,30 +3,20 @@
   background-color: var(--color-green);
 }
 
+.background-theme-geometric
+{
+  position: absolute;
+}
+
 .background-theme--freeform-shape-form
 {
   position: relative;
-  height: 344px;
-}
-
-.background-theme--geometric
-{
-  background: url('../../images/form-background-icons.png');
 }
 
 .background-theme--freeform-shape
 {
   position: relative;
   height: 838px;
-}
-
-.freedom-shape__middle
-{
-  position: absolute;
-  top: 100px;
-  left: 0;
-  right: 0;
-  padding: 0 50px;
 }
 
 .mobile
@@ -52,11 +42,8 @@
   
 }
 
+
 @media only screen and (max-width: 1002px) {
-  .background-theme--freeform-shape
-  {
-    height: 980px;
-  }
 
   .thanks-letter__text
   {
@@ -64,25 +51,7 @@
   }
 }
 
-@media only screen and (max-width: 895px) {
-  .background-theme--freeform-shape
-  {
-    height: 941px;
-  }
-}
-
-@media only screen and (max-width: 760px) {
-  .background-theme--freeform-shape-form
-  {
-    height: 300px;
-  }
-}
-
 @media only screen and (max-width: 740px) {
-  .background-theme--freeform-shape
-  {
-    height: 1010px;
-  }
 
   .thanks-letter__text
   {
@@ -91,11 +60,6 @@
 }
 
 @media only screen and (max-width: 710px) {
-  .background-theme--freeform-shape
-  {
-    height: 976px;
-  }
-
   .thanks-letter__text
   {
     height: 810px;
@@ -104,22 +68,10 @@
 }
 
 @media only screen and (max-width: 700px) {
-  .background-theme--freeform-shape
-  {
-    height: 1030px;
-  }
-
   .thanks-letter__text
   {
     height: 830px;
     line-height: 29.4px;
-  }
-}
-
-@media only screen and (max-width: 645px) {
-  .background-theme--freeform-shape-form
-  {
-    height: 438px;
   }
 }
 
@@ -128,7 +80,6 @@
   {
     padding: 0 28px;
   }
-
 }
 
 @media only screen and (max-width: 545px) {

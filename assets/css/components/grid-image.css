@@ -200,6 +200,14 @@
   }
 }
 
+@media only screen and (max-width: 770px) {
+  .grid-description__heading
+  {
+    font-size: 32px;
+    line-height: 58px;
+  }
+}
+
 @media only screen and (max-width: 760px) {
   .grid-image-description-left
   {

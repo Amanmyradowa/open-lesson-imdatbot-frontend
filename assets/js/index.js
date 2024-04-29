@@ -126,55 +126,20 @@ const swiper2 = new Swiper('.swiper2', {
 });
 
 
-// let width = screen.width;
-
-// let swiperWrapper = document.querySelectorAll('.swiper-wrapper');                        // wrapper
-// let swiperSlide = document.querySelectorAll('.swiper .swiper-slide');                    // slides
-// let swiperSlide1 = document.querySelectorAll('.swiper1 .swiper-slide');                  // slides
-// let swiperSlide2 = document.querySelectorAll('.swiper2 .swiper-slide');                  // slides
-// let swiperPagination = document.querySelector('.swiper-pagination');                     // pagination
-// let swiperPagination1 = document.querySelector('.swiper-pagination1');                   // pagination
-// let swiperPagination2 = document.querySelector('.swiper-pagination2');                   // pagination
-
-// if(width > 960)
-// {
-//   swiperPagination.classList.add('disabled');
-//   swiperPagination1.classList.add('disabled');
-//   swiperPagination2.classList.add('disabled');
-//   swiperWrapper[0].classList.add('disabled');
-//   swiperWrapper[1].classList.add('disabled');
-//   swiperWrapper[2].classList.add('disabled');
-  
-//   for(let i=0; i<swiperSlide.length; i++)
-//   {
-//     swiperSlide[i].classList.add('grid-image-description__item-size-30');
-//   }
-//   for(let i=0; i<swiperSlide1.length; i++)
-//   {
-//     swiperSlide1[i].classList.add('grid-image-description__item-size-30');
-
-//   }
-//   for(let i=0; i<swiperSlide2.length; i++)
-//   {
-//     swiperSlide2[i].classList.add('grid-image-description__item-size-22');
-//   }
-// }
-
-
 class ResponsiveGrid {
 
   wrapper;
   pagination;
   slides;
-  sizeClassLarge;
+  sizeClass;
   sizeClassSmall;
   breakpoint;
 
-  constructor(wrapperSelector, paginationSelector, slideClass, sizeClassLarge) {
+  constructor(wrapperSelector, paginationSelector, slideClass, sizeClass) {
     this.wrapper = document.querySelector(wrapperSelector);
     this.pagination = document.querySelector(paginationSelector);
     this.slides = document.querySelectorAll(slideClass);
-    this.sizeClassLarge = sizeClassLarge;
+    this.sizeClass = sizeClass;
     this.breakpoint = 960;
   }
 
@@ -183,10 +148,10 @@ class ResponsiveGrid {
     const width = window.innerWidth;
     if (width > this.breakpoint) {
       this.disablePagination();
-      this.resizeSlides(this.sizeClassLarge);
+      this.resizeSlides(this.sizeClass);
     } else {
       this.enablePagination();
-      this.resizeSlidesRemove(this.sizeClassLarge);
+      this.resizeSlidesRemove(this.sizeClass);
     }
   }
 
@@ -206,6 +171,7 @@ class ResponsiveGrid {
       slide.classList.add(sizeClass);
     }
   }
+  
   resizeSlidesRemove(sizeClass) {
     for (const slide of this.slides) {
       slide.classList.remove(sizeClass);

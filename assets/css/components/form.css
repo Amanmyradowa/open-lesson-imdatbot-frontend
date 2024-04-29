@@ -1,6 +1,9 @@
 .form
 {
-  position: relative;
+  position: absolute;
+  top: 70px;
+  left: 35px;
+  right: 35px;
 }
 
 .form__top
@@ -31,7 +34,7 @@
 .form__input-button--size
 {
   width: 100%;
-  height: 40px;
+  height: 45px;
   padding: 0 14px;
 }
 
@@ -53,6 +56,18 @@
   height: 200px;
 }
 
+.form__background-image__image
+{
+  display: flex;
+}
+
+
+@media only screen and (max-width: 1160px) {
+  .form
+  {
+    top: 40px;
+  }
+}
 
 @media only screen and (max-width: 1127px) {
   .form__background-image__image-top
@@ -63,6 +78,13 @@
   .form__background-image__image-bottom
   {
     height: 221px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .form__input-button--size
+  {
+    height: 40px;
   }
 }
 
@@ -81,6 +103,17 @@
 }
 
 @media only screen and (max-width: 895px) {
+
+  .form{
+    top: 20px;
+    left: 50px;
+    right: 50px;
+  }
+
+  .form__input-button--size
+  {
+    height: 32px;
+  }
   .form__background-image__image-bottom
   {
     height: 130px;
@@ -98,15 +131,19 @@
     height: 1034px;
   }
 
-  /* .form__background-image__image-bottom {
-    height: 100px;
-  } */
-
   .form__background-image__image-top {
     height: 132px;
   }
 }
 
+@media only screen and (max-width: 727px) {
+  .form
+  {
+    top: 30px;
+    left: 30px;
+    right: 30px;
+  }
+}
 
 @media only screen and (max-width: 645px) {
 
