@@ -74,9 +74,30 @@
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .heading-size
+  {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .heading-size
+  {
+    width: 60%;
+  }
+}
+
 @media only screen and (max-width: 640px) {
   .heading
   {
     font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .heading-size
+  {
+    width: 65%;
   }
 }

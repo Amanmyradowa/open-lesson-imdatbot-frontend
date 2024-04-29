@@ -73,7 +73,7 @@
   }
 }
 
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 825px) {
 
   .absolute-image-left
   {
@@ -88,10 +88,50 @@
   .absolute-image-left-mobile
   {
     display: block;
+    left: -100px;
   }
 
   .absolute-image-right-mobile
   {
     display: block;
+    right: -100px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .absolute-image-left-mobile
+  {
+    left: -150px;
+  }
+
+  .absolute-image-right-mobile
+  {
+    right: -150px;
+  }
+}
+
+@media only screen and (max-width: 685px) {
+  .absolute-image-left-mobile
+  {
+    left: -170px;
+  }
+
+  .absolute-image-right-mobile
+  {
+    right: -170px;
+  }
+}
+
+@media only screen and (max-width: 685px) {
+  .absolute-image-left-mobile
+  {
+    left: -100px;
+    top: 170px;
+  }
+
+  .absolute-image-right-mobile
+  {
+    right: -100px;
+    top: 170px;
   }
 }
