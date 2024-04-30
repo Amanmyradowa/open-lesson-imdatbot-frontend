@@ -164,3 +164,21 @@
     height: auto;
   }
 }
+
+@media only screen and (max-width: 430px) {
+  .coverflow__image
+  {
+    width: 70px;
+    height: 81px;
+  }
+
+  .coverflow__image--heading-description-description
+  {
+    font-size: 20px;
+  }
+
+  .coverflow__image--description
+  {
+    top: 22px;
+  }
+}

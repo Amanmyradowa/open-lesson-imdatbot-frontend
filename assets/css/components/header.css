@@ -95,3 +95,15 @@
     width: 50%;
   }
 }
+
+@media only screen and (max-width: 440px) {
+  .header__right-column ul li:nth-child(n+1)
+  {
+    width: 45%;
+  }
+
+  .header__right-column ul li:nth-child(n+2)
+  {
+    width: 55%;
+  }
+}

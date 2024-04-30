@@ -50,8 +50,33 @@
     height: 315px;
   }
 
+  .swiper1 .swiper-slide
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
   .swiper2 {
     width: 95%;
     height: 350px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .swiper
+  {
+    height: 290px;
+  }
+
+  .swiper1
+  {
+    height: 335px;
+  }
+
+  .swiper2
+  {
+    height: 335px;
   }
 }

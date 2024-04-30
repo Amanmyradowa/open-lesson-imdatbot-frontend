@@ -43,7 +43,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -2;
   height: 215px;
 }
 
@@ -201,5 +200,25 @@
   .form
   {
     top: 50px;
+    left: 100px;
+    right: 100px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .form
+  {
+    top: 50px;
+    left: 75px;
+    right: 75px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .form
+  {
+    top: 50px;
+    left: 50px;
+    right: 50px;
   }
 }

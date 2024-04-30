@@ -55,3 +55,15 @@
     margin-bottom: 50px;
   }
 }
+
+@media only screen and (max-width: 430px) {
+  .footer__bottom-links
+  {
+    margin-top: 30px;
+  }
+  
+  .footer__bottom-links ul:first-child
+  {
+    margin-bottom: 30px;
+  }
+}
