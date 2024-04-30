@@ -14,6 +14,14 @@
   height: 838px;
 }
 
+.freedom-shape__middle
+{
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+}
+
 .mobile
 {
   display: none;
@@ -24,50 +32,70 @@
   display: none;
 }
 
+.thanks-letter__text
+{
+  height: 640px;
+}
+
 @media only screen and (max-width: 1127px) {
   .background-theme--freeform-shape
   {
-    height: 908px;
+    height: 895px;
   }
-  
-  .thanks-letter__text
-  {
-    height: 640px;
-  } 
 }
 
-@media only screen and (max-width: 1002px) {
+@media only screen and (max-width: 1068px) {
   .thanks-letter__text
   {
-    height: 770px;
+    height: 720px;
+  }
+
+  .background-theme--freeform-shape
+  {
+    height: 960px;
+  }
+}
+
+@media only screen and (max-width: 915px) {
+  .thanks-letter__text
+  {
+    height: 780px;
   }
 }
 
 @media only screen and (max-width: 740px) {
-  .thanks-letter__text
+  .background-theme--freeform-shape
   {
-    height: 825px;
+    height: 1040px;
   }
-}
 
-@media only screen and (max-width: 710px) {
   .thanks-letter__text
   {
-    height: 810px;
-    line-height: 29.4px;
+    height: 845px;
   }
 }
 
 @media only screen and (max-width: 700px) {
+  .background-theme--freeform-shape {
+    height: 980px;
+  }
+  
+  .thanks-letter__text {
+    height: 785px;
+    font-size: 20px;
+    line-height: 30.4px;
+  }
+}
+
+@media only screen and (max-width: 655px) {
   .thanks-letter__text
   {
-    height: 830px;
-    line-height: 29.4px;
+    line-height: 27.4px;
   }
 }
 
 @media only screen and (max-width: 645px) {
-  .background-theme--freeform-shape-form
+  .background-theme--freeform-shape-form 
   {
     display: flex;
     justify-content: center;
@@ -75,26 +103,14 @@
   }
 }
 
-@media only screen and (max-width: 590px) {
-  .freedom-shape__middle
+@media only screen and (max-width: 600px) {
+  .thanks-letter__text
   {
-    padding: 0 28px;
+    height: 820px;
+    font-size: 18px;
   }
-}
-
-@media only screen and (max-width: 545px) {
-  .mobile
-  {
-    display: block;
+  
+  .background-theme--freeform-shape {
+    height: 995px;
   }
-  .mobile-bottom
-  {
-    height: 122px;
-  }
-
-  .desktop
-  {
-    display: none;
-  }
-
 }

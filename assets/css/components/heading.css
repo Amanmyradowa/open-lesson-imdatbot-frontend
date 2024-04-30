@@ -102,6 +102,22 @@
   }
 }
 
+@media only screen and (max-width: 555px) {
+  .heading__thanks-letter {
+    font-size: 30px;
+  }
+
+  .heading-size {
+    width: 75%;
+  }
+
+  .heading
+  {
+    font-size: 20px;
+  }
+  
+}
+
 @media only screen and (max-width: 430px) {
   .heading
   {
