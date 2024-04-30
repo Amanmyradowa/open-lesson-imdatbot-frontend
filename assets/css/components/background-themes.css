@@ -3,16 +3,6 @@
   background-color: var(--color-green);
 }
 
-.background-theme-geometric-desktop
-{
-  position: absolute;
-}
-
-.background-theme-geometric-mobile
-{
-  display: none;
-}
-
 .background-theme--freeform-shape-form
 {
   position: relative;
@@ -43,13 +33,10 @@
   .thanks-letter__text
   {
     height: 640px;
-  }
-  
+  } 
 }
 
-
 @media only screen and (max-width: 1002px) {
-
   .thanks-letter__text
   {
     height: 770px;
@@ -57,7 +44,6 @@
 }
 
 @media only screen and (max-width: 740px) {
-
   .thanks-letter__text
   {
     height: 825px;
@@ -81,15 +67,11 @@
 }
 
 @media only screen and (max-width: 645px) {
-  .background-theme-geometric-desktop
+  .background-theme--freeform-shape-form
   {
-    display: none;
-  }
-  
-  .background-theme-geometric-mobile
-  {
-    display: inline-block;
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 

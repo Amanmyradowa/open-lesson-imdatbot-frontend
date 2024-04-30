@@ -65,6 +65,7 @@
 {
   display: none;
 }
+
 @media only screen and (max-width: 1160px) {
   .form
   {
@@ -168,6 +169,37 @@
   .form__background-image__image-mobile
   {
     display: flex;
+    height: 480px;
+    width: 400px;
   }
-  
+
+  .form {
+    top: 80px;
+    left: 118px;
+    right: 118px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .form__background-image__image-mobile {
+    height: 400px;
+    width: 350px;
+  }
+
+  .form
+  {
+    top: 70px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .form__background-image__image-mobile {
+    height: 370px;
+    width: 315px;
+  }
+
+  .form
+  {
+    top: 50px;
+  }
 }
