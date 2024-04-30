@@ -114,3 +114,14 @@
     height: 995px;
   }
 }
+
+@media only screen and (max-width: 555px) {
+  .thanks-letter__text
+  {
+    height: 765px;
+  }
+  
+  .background-theme--freeform-shape {
+    height: 950px;
+  }
+}
