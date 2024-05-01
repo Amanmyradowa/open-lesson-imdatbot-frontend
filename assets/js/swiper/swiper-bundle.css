@@ -61,6 +61,18 @@ swiper-container {
 	z-index: 1;
 	display: block;
 }
+.swiper3,
+swiper-container {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	overflow: hidden;
+	list-style: none;
+	padding: 0;
+	/* Fix of Webkit flickering */
+	z-index: 1;
+	display: block;
+}
 .swiper-vertical > .swiper-wrapper {
 	flex-direction: column;
 }
@@ -365,6 +377,13 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
 	transform: translate3d(0, 0, 0);
 	z-index: 10;
 }
+.swiper-pagination3 {
+	position: absolute;
+	text-align: center;
+	transition: 300ms opacity;
+	transform: translate3d(0, 0, 0);
+	z-index: 10;
+}
 .swiper-pagination.swiper-pagination-hidden {
 	opacity: 0;
 }
@@ -380,6 +399,10 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
 	display: none !important;
 }
 .swiper-pagination-disabled > .swiper-pagination2,
+.swiper-pagination1.swiper-pagination-disabled {
+	display: none !important;
+}
+.swiper-pagination-disabled > .swiper-pagination3,
 .swiper-pagination1.swiper-pagination-disabled {
 	display: none !important;
 }
@@ -619,6 +642,24 @@ swiper-container .swiper-notification {
 	z-index: -1000;
 }
 .swiper1 .swiper-notification,
+swiper-container .swiper-notification {
+	position: absolute;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	opacity: 0;
+	z-index: -1000;
+}
+.swiper2 .swiper-notification,
+swiper-container .swiper-notification {
+	position: absolute;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	opacity: 0;
+	z-index: -1000;
+}
+.swiper3 .swiper-notification,
 swiper-container .swiper-notification {
 	position: absolute;
 	left: 0;

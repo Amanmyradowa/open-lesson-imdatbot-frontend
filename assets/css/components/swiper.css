@@ -13,6 +13,13 @@
   padding-bottom: 50px !important;
 }
 
+.swiper3 {
+  width: 95%;
+  height: 400px;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+
 .swiper .swiper-wrapper.disabled
 {
   transform: translate3d(0px, 0, 0) !important;
@@ -28,6 +35,11 @@
   transform: translate3d(0px, 0, 0) !important;
 }
 
+.swiper3 .swiper-wrapper.disabled
+{
+  transform: translate3d(0px, 0, 0) !important;
+}
+
 .swiper-pagination.disabled
 {
   display: none;
@@ -39,6 +51,11 @@
 }
 
 .swiper-pagination2.disabled
+{
+  display: none;
+}
+
+.swiper-pagination3.disabled
 {
   display: none;
 }
@@ -60,7 +77,12 @@
 
   .swiper2 {
     width: 95%;
-    height: 350px;
+    height: 370px;
+  }
+
+  .swiper3
+  {
+    height: 370px;
   }
 }
 
@@ -76,6 +98,11 @@
   }
 
   .swiper2
+  {
+    height: 335px;
+  }
+
+  .swiper3
   {
     height: 335px;
   }

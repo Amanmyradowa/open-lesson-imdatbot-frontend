@@ -125,6 +125,49 @@ const swiper2 = new Swiper('.swiper2', {
 
 });
 
+const swiper3 = new Swiper('.swiper3', {
+  slidesPerView: 3,
+  spaceBetween: 0,
+  loop: true,
+  rewind: true,
+
+  pagination: {
+    el: '.swiper-pagination3',
+  },
+
+  breakpoints: {
+
+    960: {
+      slidesPerView: 3,
+      spaceBetween: 0
+    },
+
+    840: {
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+
+    720: {
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+
+    540: {
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 30
+    },
+
+  },
+
+  speed: 1500,
+
+});
+
 
 class ResponsiveGrid {
 
@@ -183,12 +226,16 @@ const grid1 = new ResponsiveGrid('.swiper1 .swiper-wrapper', '.swiper-pagination
 
 const grid2 = new ResponsiveGrid('.swiper2 .swiper-wrapper', '.swiper-pagination2', '.swiper2 .swiper-slide','grid-image-description__item-size-22');
 
+const grid3 = new ResponsiveGrid('.swiper3 .swiper-wrapper', '.swiper-pagination3', '.swiper3 .swiper-slide','grid-image-description__item-size-30');
+
 window.addEventListener('resize', () => {
   grid.resizeHandler();
   grid1.resizeHandler();
   grid2.resizeHandler();
+  grid3.resizeHandler();
 });
 
 grid.resizeHandler();
 grid1.resizeHandler();
 grid2.resizeHandler();
+grid3.resizeHandler();

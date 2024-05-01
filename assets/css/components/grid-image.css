@@ -128,7 +128,6 @@
 
 .grid-image-description__item-sertificate--theme
 {
-  /* background-image: (../../images/background-sertificate.png); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -144,6 +143,12 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 22.4px;
+}
+
+.feedback-item
+{
+  background-color: var(--color-green);
+  background-image: url(../../images/form-background-icons.png);
 }
 
 @media only screen and (max-width: 1250px) {
@@ -238,6 +243,12 @@
   {
     font-size: 25px;
     line-height: 34px;
+  }
+
+  .grid-image-description__heading
+  {
+    font-size: 20px;
+    line-height: 24px;
   }
 }
 

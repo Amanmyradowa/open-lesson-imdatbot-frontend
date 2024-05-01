@@ -30,3 +30,21 @@
   width: 45px;
   height: 80px;
 }
+
+.profile__image-size
+{
+  width: 80px;
+  height: 80px;
+}
+
+.profile-image
+{
+  position: absolute;
+  top: -60px;
+}
+
+.profile-name
+{
+  position: absolute;
+  bottom: 25px;
+}
