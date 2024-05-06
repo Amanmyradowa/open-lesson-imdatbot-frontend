@@ -1,0 +1,49 @@
+.input-outer
+{
+  width: 30%;
+}
+
+.label--theme-alert
+{
+  color: var(--color-red);
+}
+
+.label-size
+{
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.label
+{
+  display: inline-flex;
+}
+
+.label.inactive
+{
+  display: none;
+}
+
+label
+{
+  user-select: none;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .label-size
+  {
+    margin-top: 3px;
+  }
+}
+
+@media only screen and (max-width: 645px) {
+  .input-outer
+  {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+
+}

@@ -142,9 +142,14 @@
           <div class="seperator__heading margin-bottom-30">Запишитесь на открытый урок сейчас</div>
 
           <form action="" class="form__element form__element-column">
-            <input type="text" placeholder="Ф.И.О" autocomplete="off" class="form__input form__input--theme-white form__input-button--size">
 
-            <input type="number" placeholder="Номер телефона" autocomplete="off" class="form__input form__input--theme-white form__input-button--size margin-top-20">
+              <input type="text" placeholder="Ф.И.О" autocomplete="off" id="user-name" class="form__input form__input--theme-white form__input-button--size">
+
+              <label for="user-name" class="label--theme-alert label-size label">Неверное имя</label>
+
+              <input type="number" placeholder="Номер телефона" autocomplete="off" id="phone-number" class="form__input form__input--theme-white form__input-button--size margin-top-20">
+
+              <label for="phone-number" class="label--theme-alert label-size label">Неверное номер телефона</label>
 
             <button type="submit" class="button--theme-yellow form__input-button--size button--size margin-top-20">ЗАПИСАТЬСЯ</button>
           </form>
@@ -366,11 +371,23 @@
           <h1 class="grid-description__heading heading--theme-white heading__text-center margin-bottom-30">Запишитесь на открытый урок сейчас</h1>
   
           <form action="" class="form__element ">
-            <input type="text" placeholder="Ф.И.О" autocomplete="off" class="form__input form__input--theme-white form__input-button--size margin-right-30">
+
+            <div class="input-outer margin-right-30">
+              <input type="text" placeholder="Ф.И.О" autocomplete="off" class="form__input form__input--theme-white form__input-button--size margin-right-30">
+
+              <label for="user-name" class="label--theme-alert label-size label">Неверное имя</label>
+            </div>
   
-            <input type="number" placeholder="Номер телефона" autocomplete="off" class="form__input form__input--theme-white form__input-button--size margin-right-30">
+            <div class="input-outer margin-right-30">
+              <input type="number" placeholder="Номер телефона" autocomplete="off" class="form__input form__input--theme-white form__input-button--size margin-right-30">
+
+              <label for="user-name" class="label--theme-alert label-size label">Неверное имя</label>
+            </div>
+
+            <div class="input-outer">
+              <button type="submit" class="button--theme-yellow form__input-button--size button--size">ЗАПИСАТЬСЯ</button>
+            </div>
   
-            <button type="submit" class="button--theme-yellow form__input-button--size button--size">ЗАПИСАТЬСЯ</button>
           </form>
         </div>
         
@@ -495,11 +512,23 @@
           <h1 class="grid-description__heading heading--theme-white heading__text-center margin-bottom-30">Остались вопросы?</h1>
   
           <form action="" class="form__element ">
-            <input type="text" placeholder="Ф.И.О" autocomplete="off" class="form__input form__input--theme-white form__input-button--size margin-right-30">
+
+            <div class="input-outer margin-right-30">
+              <input type="text" placeholder="Ф.И.О" autocomplete="off" class="form__input form__input--theme-white form__input-button--size">
   
-            <input type="number" placeholder="Номер телефона" autocomplete="off" class="form__input form__input--theme-white form__input-button--size margin-right-30">
+              <label for="user-name" class="label--theme-alert label-size label">Неверное имя</label>
+            </div>
+
+            <div class="input-outer margin-right-30">
+              <input type="number" placeholder="Номер телефона" autocomplete="off" class="form__input form__input--theme-white form__input-button--size">
   
-            <button type="submit" class="button--theme-yellow form__input-button--size button--size">ЗАПИСАТЬСЯ</button>
+              <label for="user-name" class="label--theme-alert label-size label">Неверное имя</label>
+            </div>
+
+            <div class="input-outer">
+              <button type="submit" class="button--theme-yellow form__input-button--size button--size">ЗАПИСАТЬСЯ</button>
+            </div>
+  
           </form>
         </div>
         

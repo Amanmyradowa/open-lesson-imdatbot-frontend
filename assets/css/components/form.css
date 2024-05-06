@@ -154,10 +154,10 @@
     flex-direction: column;
   }
 
-  .form__element input
+  /* .form__element input
   {
     margin-bottom: 20px;
-  }
+  } */
   
   .form__background-image__image-desktop
   {

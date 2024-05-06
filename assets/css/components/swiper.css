@@ -7,6 +7,14 @@
   height: 385px;
 }
 
+.swiper1 .swiper-slide
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .swiper2
 {
   padding-top: 82px !important;
@@ -65,14 +73,6 @@
   .swiper
   {
     height: 315px;
-  }
-
-  .swiper1 .swiper-slide
-  {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
   }
 
   .swiper2 {
