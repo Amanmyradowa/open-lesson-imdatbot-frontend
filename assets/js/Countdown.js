@@ -22,10 +22,11 @@ class Countdown {
       return;
     }
 
-    const daysDiff = Math.floor(millisecondsDiff / (1000 * 60 * 60 * 24));
-    const hoursLeft = Math.floor((millisecondsDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutesLeft = Math.floor((millisecondsDiff % (1000 * 60 * 60)) / (1000 * 60));
-    const secondsLeft = Math.floor((millisecondsDiff % (1000 * 60)) / 1000);
+    const seconds = millisecondsDiff / 1000;
+    const daysDiff = Math.floor(seconds / (3600 * 24));
+    const hoursLeft = Math.floor((seconds % (seconds / 3600)) % 24);
+    const minutesLeft = Math.floor((seconds / 60) % 60);
+    const secondsLeft = Math.floor(seconds % 60);
 
     this.daysElement.textContent = daysDiff;
     this.clockElement.textContent = hoursLeft;
