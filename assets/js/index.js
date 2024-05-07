@@ -168,95 +168,12 @@ const swiper3 = new Swiper('.swiper3', {
 
 });
 
-class ResponsiveGrid {
+const grid = new ResponsiveGrid('.swiper .swiper-wrapper', '.swiper-pagination', '.swiper .swiper-slide','grid-image-description__item-size-30');
 
-  wrapper;
-  pagination;
-  slides;
-  sizeClass;
-  sizeClassSmall;
-  breakpoint;
+const grid1 = new ResponsiveGrid('.swiper1 .swiper-wrapper', '.swiper-pagination1', '.swiper1 .swiper-slide','grid-image-description__item-size-30');
 
-  constructor(wrapperSelector, paginationSelector, slideClass, sizeClass) {
-    this.wrapper = document.querySelector(wrapperSelector);
-    this.pagination = document.querySelector(paginationSelector);
-    this.slides = document.querySelectorAll(slideClass);
-    this.sizeClass = sizeClass;
-    this.breakpoint = 960;
+const grid2 = new ResponsiveGrid('.swiper2 .swiper-wrapper', '.swiper-pagination2', '.swiper2 .swiper-slide','grid-image-description__item-size-22');
 
-    window.addEventListener('resize', this.resizeHandler.bind(this));
-
-    this.resizeHandler();
-  }
-
-  resizeHandler() {
-    const width = window.innerWidth;
-    if (width > this.breakpoint) {
-      this.disablePagination();
-      this.resizeSlides(this.sizeClass);
-    } else {
-      this.enablePagination();
-      this.resizeSlidesRemove(this.sizeClass);
-    }
-  }
-
-  disablePagination() {
-    this.pagination.classList.add('disabled');
-    this.wrapper.classList.add('disabled');
-  }
-
-  enablePagination() {
-    this.pagination.classList.remove('disabled');
-    this.wrapper.classList.remove('disabled');
-  }
-
-  resizeSlides(sizeClass) {
-    for (const slide of this.slides) {
-      slide.classList.add(sizeClass);
-    }
-  }
-  
-  resizeSlidesRemove(sizeClass) {
-    for (const slide of this.slides) {
-      slide.classList.remove(sizeClass);
-    }
-  }
-}
-
-class Countdown {
-  constructor(targetDateTime, daysElement, clockElement, minutesElement, secondsElement) {
-    this.targetDateTime = new Date(targetDateTime);
-    this.daysElement = document.querySelector(daysElement);
-    this.clockElement = document.querySelector(clockElement);
-    this.minutesElement = document.querySelector(minutesElement);
-    this.secondsElement = document.querySelector(secondsElement);
-
-    this.updateCountdown();
-    setInterval(() => this.updateCountdown(), 1000);
-  }
-
-  updateCountdown() {
-    const now = new Date();
-    const millisecondsDiff = this.targetDateTime.getTime() - now.getTime();
-
-    if (millisecondsDiff <= 0) {
-      this.daysElement.textContent = '0';
-      this.clockElement.textContent = '00';
-      this.minutesElement.textContent = '00';
-      this.secondsElement.textContent = '00';
-      return;
-    }
-
-    const daysDiff = Math.floor(millisecondsDiff / (1000 * 60 * 60 * 24));
-    const hoursLeft = Math.floor((millisecondsDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutesLeft = Math.floor((millisecondsDiff % (1000 * 60 * 60)) / (1000 * 60));
-    const secondsLeft = Math.floor((millisecondsDiff % (1000 * 60)) / 1000);
-
-    this.daysElement.textContent = daysDiff;
-    this.clockElement.textContent = hoursLeft;
-    this.minutesElement.textContent = minutesLeft;
-    this.secondsElement.textContent = secondsLeft;
-  }
-}
+const grid3 = new ResponsiveGrid('.swiper3 .swiper-wrapper', '.swiper-pagination3', '.swiper3 .swiper-slide','grid-image-description__item-size-30');
 
 const countdown = new Countdown('2024-05-31 18:00:00', '[data-date-day]', '[data-date-clock]', '[data-date-minut]', '[data-date-second]');
