@@ -13,6 +13,7 @@
   <script defer src="./assets/js/swiper/swiper-bundle.js"></script>
   <script defer src="./assets/js/swiper/swiper-bundle.min.js"></script>
   <script defer src="./assets/js/index.js"></script>
+  <script defer src="./assets/js/grid.js"></script>
 
 </head>
 <body>
@@ -145,11 +146,11 @@
 
               <input type="text" placeholder="Ф.И.О" autocomplete="off" id="user-name" class="form__input form__input--theme-white form__input-button--size">
 
-              <label for="user-name" class="label--theme-alert label-size label">Неверное имя</label>
+              <label for="user-name" class="label--theme-alert label-size label"></label>
 
               <input type="number" placeholder="Номер телефона" autocomplete="off" id="phone-number" class="form__input form__input--theme-white form__input-button--size margin-top-20">
 
-              <label for="phone-number" class="label--theme-alert label-size label">Неверное номер телефона</label>
+              <label for="phone-number" class="label--theme-alert label-size label"></label>
 
             <button type="submit" class="button--theme-yellow form__input-button--size button--size margin-top-20">ЗАПИСАТЬСЯ</button>
           </form>
@@ -181,7 +182,7 @@
             </div>
     
             <div class="coverflow__image--description">
-              <h1 class="heading--theme-white coverflow__image--heading-description-description">8</h1>
+              <h1 class="heading--theme-white coverflow__image--heading-description-description" data-date-day></h1>
               <div class="grid-image-hexagon-description__heading heading--theme-white">Дней</div>
             </div>
           </div>
@@ -192,7 +193,7 @@
             </div>
     
             <div class="coverflow__image--description">
-              <h1 class="heading--theme-white coverflow__image--heading-description-description">24</h1>
+              <h1 class="heading--theme-white coverflow__image--heading-description-description" data-date-clock></h1>
               <div class="grid-image-hexagon-description__heading heading--theme-white">Часа</div>
             </div>
           </div>
@@ -203,7 +204,7 @@
             </div>
     
             <div class="coverflow__image--description">
-              <h1 class="heading--theme-white coverflow__image--heading-description-description">58</h1>
+              <h1 class="heading--theme-white coverflow__image--heading-description-description" data-date-minut></h1>
               <div class="grid-image-hexagon-description__heading heading--theme-white">Минут</div>
             </div>
           </div>
@@ -214,7 +215,7 @@
             </div>
     
             <div class="coverflow__image--description">
-              <h1 class="heading--theme-white coverflow__image--heading-description-description">12</h1>
+              <h1 class="heading--theme-white coverflow__image--heading-description-description" data-date-second></h1>
               <div class="grid-image-hexagon-description__heading heading--theme-white ">Секунд</div>
             </div>
           </div>
@@ -373,15 +374,15 @@
           <form action="" class="form__element ">
 
             <div class="input-outer margin-right-30">
-              <input type="text" placeholder="Ф.И.О" autocomplete="off" class="form__input form__input--theme-white form__input-button--size margin-right-30">
+              <input type="text" placeholder="Ф.И.О" autocomplete="off" id="user-name1" class="form__input form__input--theme-white form__input-button--size margin-right-30">
 
-              <label for="user-name" class="label--theme-alert label-size label">Неверное имя</label>
+              <label for="user-name1" class="label--theme-alert label-size label"></label>
             </div>
   
             <div class="input-outer margin-right-30">
-              <input type="number" placeholder="Номер телефона" autocomplete="off" class="form__input form__input--theme-white form__input-button--size margin-right-30">
+              <input type="number" placeholder="Номер телефона" autocomplete="off" id="phone-number1" class="form__input form__input--theme-white form__input-button--size margin-right-30">
 
-              <label for="user-name" class="label--theme-alert label-size label">Неверное имя</label>
+              <label for="phone-number1" class="label--theme-alert label-size label"></label>
             </div>
 
             <div class="input-outer">
@@ -514,15 +515,15 @@
           <form action="" class="form__element ">
 
             <div class="input-outer margin-right-30">
-              <input type="text" placeholder="Ф.И.О" autocomplete="off" class="form__input form__input--theme-white form__input-button--size">
+              <input type="text" placeholder="Ф.И.О" autocomplete="off" id="user-name2" class="form__input form__input--theme-white form__input-button--size">
   
-              <label for="user-name" class="label--theme-alert label-size label">Неверное имя</label>
+              <label for="user-name2" class="label--theme-alert label-size label"></label>
             </div>
 
             <div class="input-outer margin-right-30">
-              <input type="number" placeholder="Номер телефона" autocomplete="off" class="form__input form__input--theme-white form__input-button--size">
+              <input type="number" placeholder="Номер телефона" autocomplete="off" id="phone-number2" class="form__input form__input--theme-white form__input-button--size">
   
-              <label for="user-name" class="label--theme-alert label-size label">Неверное имя</label>
+              <label for="phone-number2" class="label--theme-alert label-size label"></label>
             </div>
 
             <div class="input-outer">
