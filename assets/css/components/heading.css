@@ -47,7 +47,7 @@
 .heading-size
 {
   width: 40%;
-  margin: 0 auto;
+  margin: 0 auto 100px;
   font-weight: 700;
 }
 
@@ -115,7 +115,13 @@
   {
     font-size: 20px;
   }
-  
+}
+
+@media only screen and (max-width: 480px) {
+  .heading-size
+  {
+    margin-bottom: 70px;
+  }
 }
 
 @media only screen and (max-width: 430px) {

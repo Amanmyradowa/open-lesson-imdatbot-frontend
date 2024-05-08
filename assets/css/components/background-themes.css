@@ -16,82 +16,12 @@
 
 .freedom-shape__middle
 {
-  position: absolute;
-  top: 100px;
-  left: 0;
-  right: 0;
+  position: relative;
 }
 
 .mobile
 {
   display: none;
-}
-
-.thanks-letter-mobile
-{
-  display: none;
-}
-
-.thanks-letter__text
-{
-  height: 640px;
-}
-
-@media only screen and (max-width: 1127px) {
-  .background-theme--freeform-shape
-  {
-    height: 895px;
-  }
-}
-
-@media only screen and (max-width: 1068px) {
-  .thanks-letter__text
-  {
-    height: 720px;
-  }
-
-  .background-theme--freeform-shape
-  {
-    height: 960px;
-  }
-}
-
-@media only screen and (max-width: 915px) {
-  .thanks-letter__text
-  {
-    height: 780px;
-  }
-}
-
-@media only screen and (max-width: 740px) {
-  .background-theme--freeform-shape
-  {
-    height: 1040px;
-  }
-
-  .thanks-letter__text
-  {
-    height: 845px;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  .background-theme--freeform-shape {
-    height: 980px;
-  }
-  
-  .thanks-letter__text {
-    height: 785px;
-    font-size: 20px;
-    line-height: 30.4px;
-  }
-}
-
-@media only screen and (max-width: 655px) {
-  .thanks-letter__text
-  {
-    line-height: 27.4px;
-  }
 }
 
 @media only screen and (max-width: 645px) {
@@ -100,28 +30,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .thanks-letter__text
-  {
-    height: 820px;
-    font-size: 18px;
-  }
-  
-  .background-theme--freeform-shape {
-    height: 995px;
-  }
-}
-
-@media only screen and (max-width: 555px) {
-  .thanks-letter__text
-  {
-    height: 765px;
-  }
-  
-  .background-theme--freeform-shape {
-    height: 950px;
   }
 }
