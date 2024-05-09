@@ -1,7 +1,6 @@
 const swiper = new Swiper('.swiper', {
   slidesPerView: 6,
   spaceBetween: 0,
-  loop: true,
 
   pagination: {
     el: '.swiper-pagination',
@@ -43,8 +42,6 @@ const swiper = new Swiper('.swiper', {
 const swiper1 = new Swiper('.swiper1', {
   slidesPerView: 3,
   spaceBetween: 0,
-  loop: true,
-  rewind: true,
 
   pagination: {
     el: '.swiper-pagination1',
@@ -86,7 +83,6 @@ const swiper1 = new Swiper('.swiper1', {
 const swiper2 = new Swiper('.swiper2', {
   slidesPerView: 2,
   spaceBetween: 0,
-  loop: true,
 
   pagination: {
     el: '.swiper-pagination2',
@@ -127,9 +123,7 @@ const swiper2 = new Swiper('.swiper2', {
 
 const swiper3 = new Swiper('.swiper3', {
   slidesPerView: 3,
-  spaceBetween: 0,
-  loop: true,
-  rewind: true,
+  spaceBetween: 30,
 
   pagination: {
     el: '.swiper-pagination3',
@@ -139,7 +133,7 @@ const swiper3 = new Swiper('.swiper3', {
 
     960: {
       slidesPerView: 3,
-      spaceBetween: 0
+      spaceBetween: 35,
     },
 
     840: {
@@ -173,7 +167,5 @@ const grid = new ResponsiveGrid('.swiper .swiper-wrapper', '.swiper-pagination',
 const grid1 = new ResponsiveGrid('.swiper1 .swiper-wrapper', '.swiper-pagination1', '.swiper1 .swiper-slide','grid-image-description__item-size-30');
 
 const grid2 = new ResponsiveGrid('.swiper2 .swiper-wrapper', '.swiper-pagination2', '.swiper2 .swiper-slide','grid-image-description__item-size-22');
-
-const grid3 = new ResponsiveGrid('.swiper3 .swiper-wrapper', '.swiper-pagination3', '.swiper3 .swiper-slide','grid-image-description__item-size-30');
 
 const countdown = new Countdown('2024-05-31 18:00:00', '[data-date-day]', '[data-date-clock]', '[data-date-minut]', '[data-date-second]');
