@@ -13,6 +13,7 @@
 .footer__bottom-map
 {
   width: 67.5%;
+  border-radius: 22px;
 }
 
 .footer__bottom-links

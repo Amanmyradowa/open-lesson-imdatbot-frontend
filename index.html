@@ -3,32 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Открытый урок</title>
+  <title>Открытый урок по робототехнике</title>
   <link rel="shortcut icon" href="./assets/images/logotype.png" type="image/x-icon">
   
   <link rel="stylesheet" href="./assets/css/app.css">
   <link rel="stylesheet" href="./assets/js/swiper/swiper-bundle.css">
   <link rel="stylesheet" href="./assets/js/swiper/swiper-bundle.min.css">
 
-  <script defer src="./assets/js/swiper/swiper-bundle.js"></script>
-  <script defer src="./assets/js/swiper/swiper-bundle.min.js"></script>
-  <script defer src="./assets/js/Grid.js"></script>
-  <script defer src="./assets/js/Countdown.js"></script>
-  <script defer src="./assets/js/index.js"></script>
+  <script src="./assets/js/swiper/swiper-bundle.js" defer></script>
+  <script src="./assets/js/swiper/swiper-bundle.min.js" defer></script>
+  <script src="./assets/js/Grid.js" defer></script>
+  <script src="./assets/js/Countdown.js" defer></script>
+  <script src="./assets/js/LazyLoad.js" defer></script>
+  <script src="./assets/js/index.js" defer></script>
 
 </head>
 <body>
 
   <header class="header header--theme-blue header--theme container">
 
-    <div class="logotype__image-mobile">
-      <img src="./assets/images/logotype.png" alt="logotype__image" class="image__element--fit-contain image__element image__element--fit-position-center">
+    <div class="logotype__image-mobile loader__container loading-theme__white">
+      <img src="" data-src="./assets/images/logotype.png" class="image__element--fit-contain image__element image__element--fit-position-center lazy">
+
+      <div class="preloader">
+        <svg class="icon-size-preloader">
+          <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+        </svg>
+      </div>
     </div>
 
     <h3 class="logotype__heading logotype__heading--theme-white">ОБРАЗОВАТЕЛЬНЫЙ ЦЕНТР РОБОТОТЕХНИКИ И ПРОГРАМИРОВАНИЯ ДЛЯ ДЕТЕЙ</h3>
 
-    <div class="logotype__image">
-      <img src="./assets/images/logotype.png" alt="logotype__image" class="image__element--fit-contain image__element image__element--fit-position-center">
+    <div class="logotype__image loader__container loading-theme__white">
+      <img src="" data-src="./assets/images/logotype.png" class="image__element--fit-contain image__element image__element--fit-position-center lazy">
+
+      <div class="preloader">
+        <svg class="icon-size-preloader">
+          <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+        </svg>
+      </div>
     </div>
 
     <div class="header__right-column">
@@ -78,9 +91,17 @@
           <div class="grid-image-description__image margin-right-25">
             <div class="hexagon__size-tiny hexagon"></div>
 
-            <div class="grid-image-description__image-middle-image grid-image-description__image-middle-image--size">
-              <img src="./assets/images/arrows.png" alt="" class="image__element">
-            </div>
+            <!-- <div class="loader__container"> -->
+              <div class="grid-image-description__image-middle-image grid-image-description__image-middle-image--size">
+                <img src="" data-src="./assets/images/arrows.png" alt="" class="image__element">
+              </div>
+
+              <!-- <div class="preloader">
+                <svg class="icon-size-preloader">
+                  <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+                </svg>
+              </div> -->
+            <!-- </div> -->
           </div>
 
           <h3 class="grid-image-description__heading heading--theme-dark">Ребёнок 	напишет свою первую программу.</h3>
@@ -158,8 +179,14 @@
         </div>
 
         <div class="seperator__upper">
-          <div class="seperator__upper-image margin-right-15">
-            <img src="./assets/images/diversity_1.png" alt="" class="image__element">
+          <div class="seperator__upper-image margin-right-15 loader__container loading-theme__grey">
+            <img src="" data-src="./assets/images/diversity_1.png" alt="" class="image__element lazy">
+
+            <div class="preloader">
+              <svg class="icon-size-preloader">
+                <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+              </svg>
+            </div>
           </div>
 
           <p class="seperator__upper-text heading--theme-blue">Для детей 7-12 лет и их родителей</p>
@@ -178,8 +205,14 @@
 
         <div class="grid-image-description">
           <div class="coverflow__image--heading-description">
-            <div class="coverflow__image">
-              <img src="./assets/images/Path-2 (4).png" alt="" class="image__element">
+            <div class="coverflow__image loader__container loading-theme__white">
+              <img src="" data-src="./assets/images/Path-2 (4).png" alt="" class="image__element lazy">
+              
+              <div class="preloader">
+                <svg class="icon-size-preloader">
+                  <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+                </svg>
+              </div>
             </div>
     
             <div class="coverflow__image--description">
@@ -189,8 +222,14 @@
           </div>
   
           <div class="coverflow__image--heading-description">
-            <div class="coverflow__image">
-              <img src="./assets/images/Path-2 (4).png" alt="" class="image__element">
+            <div class="coverflow__image loader__container loading-theme__white">
+              <img src="" data-src="./assets/images/Path-2 (4).png" alt="" class="image__element lazy">
+
+              <div class="preloader">
+                <svg class="icon-size-preloader">
+                  <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+                </svg>
+              </div>
             </div>
     
             <div class="coverflow__image--description">
@@ -200,8 +239,14 @@
           </div>
   
           <div class="coverflow__image--heading-description">
-            <div class="coverflow__image">
-              <img src="./assets/images/Path-2 (4).png" alt="" class="image__element">
+            <div class="coverflow__image loader__container loading-theme__white">
+              <img src="" data-src="./assets/images/Path-2 (4).png" alt="" class="image__element lazy">
+
+              <div class="preloader">
+                <svg class="icon-size-preloader">
+                  <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+                </svg>
+              </div>
             </div>
     
             <div class="coverflow__image--description">
@@ -211,8 +256,14 @@
           </div>
   
           <div class="coverflow__image--heading-description">
-            <div class="coverflow__image">
-              <img src="./assets/images/Path-2 (4).png" alt="" class="image__element">
+            <div class="coverflow__image loader__container loading-theme__white">
+              <img src="" data-src="./assets/images/Path-2 (4).png" alt="" class="image__element lazy">
+
+              <div class="preloader">
+                <svg class="icon-size-preloader">
+                  <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+                </svg>
+              </div>
             </div>
     
             <div class="coverflow__image--description">
@@ -293,7 +344,7 @@
               <div class="hexagon hexagon__size-middle"></div>
 
               <div class="grid-image-description__item-middle-image-size grid-image-description__image-middle-image">
-                <img src="./assets/images/ferz-big.png" alt="" class="image__element">
+                <img src="./assets/images/ferz-big.png" alt="" class="image__element" loading="lazy">
               </div>
             </div>
 
@@ -306,7 +357,7 @@
               <div class="hexagon hexagon__size-middle"></div>
 
               <div class="grid-image-description__item-middle-image-size grid-image-description__image-middle-image">
-                <img src="./assets/images/psychology-big.png" alt="" class="image__element">
+                <img src="./assets/images/psychology-big.png" alt="" class="image__element" loading="lazy">
               </div>
             </div>
 
@@ -333,22 +384,41 @@
           <div class="grid-image-description grid-image-description__swiper swiper-wrapper">
 
             <section class="swiper-slide">
-              <div class="grid-image-description__item-sertificate-size margin-bottom-25">
-                <img src="./assets/images/gerb.png" alt="Gerb" class="image__element">
+              <div class="grid-image-description__item-sertificate-size margin-bottom-25 loader__container loading-theme__grey">
+                
+                <img src="" data-src="./assets/images/gerb.png" class="image__element lazy">
+
+                <div class="preloader">
+                  <svg class="icon-size-preloader">
+                    <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+                  </svg>
+                </div>
               </div>
               <h3 class="grid-image-description__heading-center heading--theme-black">Лицензию по робототехнике от министерства	образования Туркменистана.</h3>
             </section>
 
             <section class="swiper-slide">
-              <div class="grid-image-description__item-sertificate-size__middle-image margin-bottom-25">
-                <img src="./assets/images/sertificate-makeblock.png" alt="Sertificate Makeblock" class="image__element">
+              <div class="grid-image-description__item-sertificate-size__middle-image margin-bottom-25 loader__container loading-theme__grey">
+                <img src="" data-src="./assets/images/sertificate-makeblock.png" class="image__element lazy">
+
+                <div class="preloader">
+                  <svg class="icon-size-preloader">
+                    <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+                  </svg>
+                </div>
               </div>
               <h3 class="grid-image-description__heading-center heading--theme-black">Сертификацию от лидера отрасли образовательной робототехники – компании Makeblock.</h3>
             </section>
 
             <section class="swiper-slide">
-              <div class="grid-image-description__item-sertificate-size margin-bottom-25">
-                <img src="./assets/images/sertificate.png" alt="Sertificate" class="image__element">
+              <div class="grid-image-description__item-sertificate-size margin-bottom-25 loader__container loading-theme__grey">
+                <img src="" data-src="./assets/images/sertificate.png" class="image__element lazy">
+
+                <div class="preloader">
+                  <svg class="icon-size-preloader">
+                    <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+                  </svg>
+                </div>
               </div>
               <h3 class="grid-image-description__heading-center heading--theme-black">Сертификат ISO:9001 среди образовательных учреждений в Туркменистане.</h3>
             </section>
@@ -413,7 +483,7 @@
               <div class="grid-image-hexagon-description__heading margin-top-80">Обучение 	по методике STEAM 	­– разностороннее развитие ребёнка</div>
 
               <div class="image__position image__position-size">
-                <img src="./assets/images/Vector (5).png" alt="" class="image__element">
+                <img src="./assets/images/Vector (5).png" alt="" class="image__element" loading="lazy">
               </div>
 
             </section>
@@ -423,7 +493,7 @@
               <div class="grid-image-hexagon-description__heading margin-top-80">Современное 	оборудование – от лидера отрасли 	образовательной робототехники Makeblock</div>
 
               <div class="image__position image__position-size">
-                <img src="./assets/images/Vector (6).png" alt="" class="image__element">
+                <img src="./assets/images/Vector (6).png" alt="" class="image__element" loading="lazy">
               </div>
 
             </section>
@@ -433,7 +503,7 @@
               <div class="grid-image-hexagon-description__heading margin-top-80">Полностью 	обеспечиваем ребёнка – индивидуальный 	робот, компьютер и инструменты</div>
 
               <div class="image__position image__position-size">
-                <img src="./assets/images/Vector (7).png" alt="" class="image__element">
+                <img src="./assets/images/Vector (7).png" alt="" class="image__element" loading="lazy">
               </div>
 
             </section>
@@ -443,7 +513,7 @@
               <div class="grid-image-hexagon-description__heading margin-top-80">Небольшой 	размер групп – индивидуальный подход 	к каждому ребёнку</div>
 
               <div class="image__position image__position-size">
-                <img src="./assets/images/Vector (8).png" alt="" class="image__element">
+                <img src="./assets/images/Vector (8).png" alt="" class="image__element" loading="lazy">
               </div>
 
             </section>
@@ -453,7 +523,7 @@
               <div class="grid-image-hexagon-description__heading margin-top-80">Наши 	ученики являются призёрами международных 	соревнований по робототехнике</div>
 
               <div class="image__position image__position-size">
-                <img src="./assets/images/Vector (9).png" alt="" class="image__element">
+                <img src="./assets/images/Vector (9).png" alt="" class="image__element" loading="lazy">
               </div>
 
             </section>
@@ -463,7 +533,7 @@
               <div class="grid-image-hexagon-description__heading margin-top-80">Высокие 	стандарты обучения – есть все необходимые 	лицензии и сертификаты</div>
 
               <div class="image__position image__position-size">
-                <img src="./assets/images/Vector (12).png" alt="" class="image__element">
+                <img src="./assets/images/Vector (12).png" alt="" class="image__element" loading="lazy">
               </div>
 
             </section>
@@ -473,7 +543,7 @@
               <div class="grid-image-hexagon-description__heading margin-top-80">Опытные 	сертифицированные преподаватели, 	которые любят свою работу</div>
 
               <div class="image__position image__position-size">
-                <img src="./assets/images/Vector (11).png" alt="" class="image__element">
+                <img src="./assets/images/Vector (11).png" alt="" class="image__element" loading="lazy">
               </div>
 
             </section>
@@ -483,7 +553,7 @@
               <div class="grid-image-hexagon-description__heading margin-top-80">Опытные 	сертифицированные преподаватели, 	которые любят свою работу</div>
 
               <div class="image__position image__position-size">
-                <img src="./assets/images/Vector (12).png" alt="" class="image__element">
+                <img src="./assets/images/Vector (12).png" alt="" class="image__element" loading="lazy">
               </div>
 
             </section>
@@ -507,7 +577,7 @@
         </div>
 
         <div class="form__background-image__image-mobile">
-          <img src="./assets/images/form-background-mobile.png" alt="" class="image__element">
+          <img src="./assets/images/form-background-mobile.png" alt="" class="image__element" loading="lazy">
         </div>
 
         <div class="form">
@@ -543,14 +613,20 @@
 
         <section class="swiper-slide grid-column feedback-item grid-image-description__image">
 
-          <div class="grid-image-description__image margin-25">
+          <div class="grid-image-description__image margin-left-25">
 
-            <div class="profile__image-size profile-image">
-              <img src="./assets/images/download-1.jpg" alt="museum" class="image__element image-rounded">
+            <div class="profile__image-size profile-image loader__container loading-theme__grey">
+              <img src="" data-src="./assets/images/image.png" class="image__element image-rounded lazy">
+
+              <div class="preloader">
+                <svg class="icon-size-preloader">
+                  <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+                </svg>
+              </div>
             </div>
           </div>
 
-          <p class="heading--theme-white grid-image-description__heading margin-top-50">
+          <p class="heading--theme-white grid-image-description__heading">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
           </p>
 
@@ -559,14 +635,19 @@
 
         <section class="swiper-slide grid-column feedback-item grid-image-description__image">
 
-          <div class="grid-image-description__image margin-25">
+          <div class="grid-image-description__image margin-left-25">
 
-            <div class="profile__image-size profile-image">
-              <img src="./assets/images/download-1.jpg" alt="museum" class="image__element image-rounded">
+            <div class="profile__image-size profile-image loader__container loading-theme__grey">
+              <img src="" data-src="./assets/images/image.png" class="image__element image-rounded lazy">
+              <div class="preloader">
+                <svg class="icon-size-preloader">
+                  <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+                </svg>
+              </div>
             </div>
           </div>
 
-          <p class="heading--theme-white grid-image-description__heading margin-top-50">
+          <p class="heading--theme-white grid-image-description__heading">
             Lorem ipsum dolor sit
           </p>
 
@@ -575,14 +656,20 @@
 
         <section class="swiper-slide grid-column feedback-item grid-image-description__image">
 
-          <div class="grid-image-description__image margin-25">
+          <div class="grid-image-description__image margin-left-25">
 
-            <div class="profile__image-size profile-image">
-              <img src="./assets/images/download-1.jpg" alt="museum" class="image__element image-rounded">
+            <div class="profile__image-size profile-image loader__container loading-theme__grey">
+              <img src="" data-src="./assets/images/download-1.jpg" class="image__element image-rounded lazy">
+
+              <div class="preloader">
+                <svg class="icon-size-preloader">
+                  <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+                </svg>
+              </div>
             </div>
           </div>
 
-          <p class="heading--theme-white grid-image-description__heading margin-top-50">
+          <p class="heading--theme-white grid-image-description__heading">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, debitis!
           </p>
 
@@ -591,14 +678,20 @@
 
         <section class="swiper-slide grid-column feedback-item grid-image-description__image">
 
-          <div class="grid-image-description__image margin-25">
+          <div class="grid-image-description__image margin-left-25">
 
-            <div class="profile__image-size profile-image">
-              <img src="./assets/images/download-1.jpg" alt="museum" class="image__element image-rounded">
+            <div class="profile__image-size profile-image loader__container loading-theme__grey">
+              <img src="" data-src="./assets/images/download-1.jpg" class="image__element image-rounded lazy">
+
+              <div class="preloader">
+                <svg class="icon-size-preloader">
+                  <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+                </svg>
+              </div>
             </div>
           </div>
 
-          <p class="heading--theme-white grid-image-description__heading margin-top-50">
+          <p class="heading--theme-white grid-image-description__heading">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, debitis!
           </p>
 
@@ -617,8 +710,14 @@
       </section>
 
       <div class="footer__bottom-bottom">
-        <div class="footer__bottom-map">
-          <img src="./assets/images/map.png" alt="Map" class="image__element">
+        <div class="footer__bottom-map loader__container loading-theme__white">
+          <img src="" data-src="./assets/images/map.png" class="image__element lazy">
+
+          <div class="preloader">
+            <svg class="icon-size-preloader">
+              <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+            </svg>
+          </div>
         </div>
 
         <div class="footer__bottom-links">
@@ -631,13 +730,18 @@
     
                 <div class="social-links__item grid-image-description__item-theme-white margin-right-15">
                   <div class="social-links__item-image-phone-link">
-                    <div class="social-links__item-image">
-                      <img src="./assets/images/phone.png" alt="" class="image__element">
+                    <div class="social-links__item-image loader__container loading-theme__white">
+                      <img src="" data-src="./assets/images/phone.png" alt="" class="image__element lazy">
+                      
+                      <div class="preloader">
+                        <svg class="icon-size-preloader">
+                          <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+                        </svg>
+                      </div>
                     </div>
                   </div>
                 </div>
-    
-                141-171
+                +993 62 90 00 69
               </a>
             </li>
   
@@ -647,16 +751,28 @@
                 <div class="social-links__items grid-image-description__item-theme-white margin-right-15">
                   <div class="social-links__item grid-image-description__item-theme-white margin-right-8">
                     <div class="social-links__item-image-phone-link">
-                      <div class="social-links__item-image">
-                        <img src="./assets/images/tiktok.png" alt="" class="image__element">
+                      <div class="social-links__item-image loader__container loading-theme__white">
+                        <img src="" data-src="./assets/images/tiktok.png" alt="" class="image__element lazy">
+
+                        <div class="preloader">
+                          <svg class="icon-size-preloader">
+                            <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+                          </svg>
+                        </div>
                       </div>
                     </div>
                   </div>
       
                   <div class="social-links__item grid-image-description__item-theme-white">
                     <div class="social-links__item-image-phone-link">
-                      <div class="social-links__item-image">
-                        <img src="./assets/images/instagram.png" alt="" class="image__element">
+                      <div class="social-links__item-image loader__container loading-theme__white">
+                        <img src="" data-src="./assets/images/instagram.png" alt="" class="image__element lazy">
+
+                        <div class="preloader">
+                          <svg class="icon-size-preloader">
+                            <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+                          </svg>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -671,8 +787,14 @@
     
                 <div class="social-links__item grid-image-description__item-theme-white margin-right-15">
                   <div class="social-links__item-image-phone-link">
-                    <div class="social-links__item-image">
-                      <img src="./assets/images/imdatbot.png" alt="" class="image__element">
+                    <div class="social-links__item-image loader__container loading-theme__white">
+                      <img src="" data-src="./assets/images/imdatbot.png" alt="" class="image__element lazy">
+
+                      <div class="preloader">
+                        <svg class="icon-size-preloader">
+                          <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+                        </svg>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -686,8 +808,14 @@
     
                 <div class="social-links__item grid-image-description__item-theme-white margin-right-15">
                   <div class="social-links__item-image-phone-link">
-                    <div class="social-links__item-image">
-                      <img src="./assets/images/location.png" alt="" class="image__element">
+                    <div class="social-links__item-image loader__container loading-theme__white">
+                      <img src="" data-src="./assets/images/location.png" alt="" class="image__element lazy">
+
+                      <div class="preloader">
+                        <svg class="icon-size-preloader">
+                          <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+                        </svg>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -703,19 +831,12 @@
   
             <li class="item margin-bottom-20">
               <a href="tel: 141-171" class="item heading--theme-white social-links__item-link">
-                ПН-ПТ: 10:00 - 19:00
-              </a>
-            </li>
-  
-            <li class="item margin-bottom-20">
-              <a href="tel: 141-171" class="item heading--theme-white social-links__item-link">
-                CБ: 10:00 - 15:00
+                ПН-CБ: 09:00 - 21:00
               </a>
             </li>
   
           </ul>
         </div>
-  
 
       </div>
 

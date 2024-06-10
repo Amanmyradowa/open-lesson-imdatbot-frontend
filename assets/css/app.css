@@ -25,7 +25,7 @@
 @import './components/swiper.css';
 @import './components/background-themes.css';
 @import './components/label.css';
-
+@import './components/preloader.css';
 *
 {
     margin: 0;
