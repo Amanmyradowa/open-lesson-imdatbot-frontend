@@ -7,18 +7,32 @@
   <link rel="shortcut icon" href="./assets/images/logotype.png" type="image/x-icon">
 
   <link rel="stylesheet" href="./assets/css/app.css">
+
+  <script src="./assets/js/LazyLoad.js" defer></script>
 </head>
 <body>
   
   <header class="header header--theme-blue header--theme container">
     <h3 class="logotype__heading logotype__heading--theme-white">ОБРАЗОВАТЕЛЬНЫЙ ЦЕНТР РОБОТОТЕХНИКИ И ПРОГРАМИРОВАНИЯ ДЛЯ ДЕТЕЙ</h3>
 
-    <div class="logotype__image">
-      <img src="./assets/images/logotype.png" alt="logotype__image" class="image__element--fit-contain image__element image__element--fit-position-center">
+    <div class="logotype__image loader__container loading-theme__white">
+      <img src="" data-src="./assets/images/logotype.png" alt="logotype__image" class="image__element--fit-contain image__element image__element--fit-position-center lazy">
+
+      <div class="preloader">
+        <svg class="icon-size-preloader">
+          <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+        </svg>
+      </div>
     </div>
 
-    <div class="logotype__image-mobile">
-      <img src="./assets/images/logotype.png" alt="logotype__image" class="image__element--fit-contain image__element image__element--fit-position-center">
+    <div class="logotype__image-mobile loader__container loading-theme__white">
+      <img src="" data-src="./assets/images/logotype.png" alt="logotype__image" class="image__element--fit-contain image__element image__element--fit-position-center lazy">
+
+      <div class="preloader">
+        <svg class="icon-size-preloader">
+          <use xlink:href="./assets/icons/sprite.svg#loading"></use>
+        </svg>
+      </div>
     </div>
 
     <div class="header__right-column">

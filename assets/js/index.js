@@ -168,4 +168,4 @@ const grid1 = new ResponsiveGrid('.swiper1 .swiper-wrapper', '.swiper-pagination
 
 const grid2 = new ResponsiveGrid('.swiper2 .swiper-wrapper', '.swiper-pagination2', '.swiper2 .swiper-slide','grid-image-description__item-size-22');
 
-const countdown = new Countdown('2024-05-31 18:00:00', '[data-date-day]', '[data-date-clock]', '[data-date-minut]', '[data-date-second]');
+const countdown = new Countdown('2024-07-07 05:00:00', '[data-date-day]', '[data-date-clock]', '[data-date-minut]', '[data-date-second]');

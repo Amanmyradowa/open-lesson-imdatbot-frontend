@@ -3,7 +3,7 @@
 @import './atomic/padding.css';
 
 /* components */
-@import '../fonts/fonts.css';
+/* @import '../fonts/fonts.css'; */
 @import './variables.css';
 @import './components/header.css';
 @import './components/logotype.css';
@@ -40,7 +40,8 @@ body
 }
 body
 {
-    font: normal normal 14px 'TRY Clother';
+    /* font: normal normal 14px 'TRY Clother'; */
+    font: normal normal 14px 'Arial';
     padding: 15px 0;
 }
 
