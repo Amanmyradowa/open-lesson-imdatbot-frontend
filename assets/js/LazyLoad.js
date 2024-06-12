@@ -1,4 +1,4 @@
-function createPreloder() {
+function createPreloader() {
   const preloaderElement = document.createElement('div');
   preloaderElement.setAttribute('class','preloader')
   preloaderElement.innerHTML =  
@@ -11,7 +11,7 @@ function createPreloder() {
 
 let lazyImages = document.querySelectorAll('.lazy');
 lazyImages.forEach(image => {
-  image.parentElement.appendChild(createPreloder());
+  image.parentElement.appendChild(createPreloader());
   image.setAttribute('loading', 'lazy');
 })
 
@@ -19,8 +19,6 @@ let lazyImageObserver = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     let img = entry.target;
     let loaderContainer = img.parentElement;
-    
-    
     
     if(entry.isIntersecting) {
       img.src = img.dataset.src;
